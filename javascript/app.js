@@ -1,6 +1,6 @@
 let toWatch=[],watchedList=[],skippedList=[];
 let dirty=false,activeCat="all",activeView="all",searchQ="";
-const SM={tv:"TV shows",movie:"Movies","anime-movie":"Anime films","anime-tv":"Anime TV shows"};
+const SM={tv:"TV shows",movie:"Movies","anime-movie":"Anime films","anime-tv":"Anime TV shows","animated-tv":"Animated TV shows"};
 const TR=[{min:9,l:"9.0+ — Elite"},{min:8.7,l:"8.7–8.9 — Outstanding"},{min:8.5,l:"8.5–8.6 — Excellent"},{min:8.1,l:"8.1–8.4 — Great"}];
 
 async function init(){
@@ -172,7 +172,7 @@ function render(){
 
   source.sort((a,b)=>b.item.rating-a.item.rating);
 
-  const secs=activeCat==="all"?["tv","movie","anime-movie","anime-tv"]:[activeCat];
+  const secs=activeCat==="all"?["tv","movie","anime-movie","anime-tv","animated-tv"]:[activeCat];
   let html="";
   for(const sec of secs){
     const secItems=source.filter(x=>x.item.category===sec);

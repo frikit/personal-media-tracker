@@ -1,5 +1,14 @@
 [
   {
+    "id": "at009",
+    "title": "Haikyuu!!",
+    "rating": 8.7,
+    "year": 2014,
+    "meta": "Production I.G, Sports/Comedy",
+    "category": "anime-tv",
+    "poster": "posters/at009.jpg"
+  },
+  {
     "id": "m029",
     "title": "12th Fail",
     "rating": 8.5,

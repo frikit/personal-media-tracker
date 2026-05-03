@@ -9,6 +9,42 @@
     "poster": "posters/t021.jpg"
   },
   {
+    "id": "at016",
+    "title": "Attack on Titan: The Final Season",
+    "rating": 9.1,
+    "year": 2020,
+    "meta": "MAPPA, Action/Drama",
+    "category": "anime-tv",
+    "poster": "posters/at016.jpg"
+  },
+  {
+    "id": "at007",
+    "title": "Attack on Titan",
+    "rating": 9,
+    "year": 2013,
+    "meta": "Wit Studio, Action/Drama",
+    "category": "anime-tv",
+    "poster": "posters/at007.jpg"
+  },
+  {
+    "id": "at002",
+    "title": "Hunter x Hunter (2011)",
+    "rating": 8.9,
+    "year": 2011,
+    "meta": "Madhouse, Action/Adventure",
+    "category": "anime-tv",
+    "poster": "posters/at002.jpg"
+  },
+  {
+    "id": "at018",
+    "title": "Frieren: Beyond Journey's End",
+    "rating": 8.9,
+    "year": 2023,
+    "meta": "Madhouse, Adventure/Fantasy",
+    "category": "anime-tv",
+    "poster": "posters/at018.jpg"
+  },
+  {
     "id": "m001",
     "title": "Inception",
     "rating": 8.8,
@@ -16,6 +52,15 @@
     "meta": "Christopher Nolan, Sci-Fi/Thriller",
     "category": "movie",
     "poster": "posters/m001.jpg"
+  },
+  {
+    "id": "at020",
+    "title": "Bleach: Thousand-Year Blood War",
+    "rating": 8.8,
+    "year": 2022,
+    "meta": "Pierrot, Action/Fantasy",
+    "category": "anime-tv",
+    "poster": "posters/at020.jpg"
   },
   {
     "id": "m015",
@@ -27,6 +72,24 @@
     "poster": "posters/m015.jpg"
   },
   {
+    "id": "at013",
+    "title": "One Punch Man",
+    "rating": 8.7,
+    "year": 2015,
+    "meta": "Madhouse, Action/Comedy",
+    "category": "anime-tv",
+    "poster": "posters/at013.jpg"
+  },
+  {
+    "id": "at021",
+    "title": "Made in Abyss",
+    "rating": 8.7,
+    "year": 2017,
+    "meta": "Kinema Citrus, Adventure/Fantasy",
+    "category": "anime-tv",
+    "poster": "posters/at021.jpg"
+  },
+  {
     "id": "m025",
     "title": "Spider-Man: Into the Spider-Verse",
     "rating": 8.6,
@@ -34,6 +97,42 @@
     "meta": "Sony, Animation",
     "category": "movie",
     "poster": "posters/m025.jpg"
+  },
+  {
+    "id": "at022",
+    "title": "Mob Psycho 100",
+    "rating": 8.6,
+    "year": 2016,
+    "meta": "Bones, Action/Comedy",
+    "category": "anime-tv",
+    "poster": "posters/at022.jpg"
+  },
+  {
+    "id": "at023",
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "rating": 8.6,
+    "year": 2019,
+    "meta": "Ufotable, Action/Fantasy",
+    "category": "anime-tv",
+    "poster": "posters/at023.jpg"
+  },
+  {
+    "id": "at024",
+    "title": "Jujutsu Kaisen",
+    "rating": 8.6,
+    "year": 2020,
+    "meta": "MAPPA, Action/Fantasy",
+    "category": "anime-tv",
+    "poster": "posters/at024.jpg"
+  },
+  {
+    "id": "at025",
+    "title": "Ranking of Kings",
+    "rating": 8.6,
+    "year": 2021,
+    "meta": "Wit Studio, Adventure/Fantasy",
+    "category": "anime-tv",
+    "poster": "posters/at025.jpg"
   },
   {
     "id": "m007",
@@ -88,6 +187,51 @@
     "meta": "Denis Villeneuve, Sci-Fi",
     "category": "movie",
     "poster": "posters/m028.jpg"
+  },
+  {
+    "id": "at027",
+    "title": "Violet Evergarden",
+    "rating": 8.5,
+    "year": 2018,
+    "meta": "Kyoto Animation, Drama/Fantasy",
+    "category": "anime-tv",
+    "poster": "posters/at027.jpg"
+  },
+  {
+    "id": "at026",
+    "title": "My Hero Academia",
+    "rating": 8.5,
+    "year": 2016,
+    "meta": "Bones, Action/Superhero",
+    "category": "anime-tv",
+    "poster": "posters/at026.jpg"
+  },
+  {
+    "id": "at030",
+    "title": "Cyberpunk: Edgerunners",
+    "rating": 8.5,
+    "year": 2022,
+    "meta": "Studio Trigger, Action/Sci-Fi",
+    "category": "anime-tv",
+    "poster": "posters/at030.jpg"
+  },
+  {
+    "id": "at031",
+    "title": "Solo Leveling",
+    "rating": 8.5,
+    "year": 2024,
+    "meta": "A-1 Pictures, Action/Fantasy",
+    "category": "anime-tv",
+    "poster": "posters/at031.jpg"
+  },
+  {
+    "id": "at032",
+    "title": "Dandadan",
+    "rating": 8.5,
+    "year": 2024,
+    "meta": "Science SARU, Action/Comedy",
+    "category": "anime-tv",
+    "poster": "posters/at032.jpg"
   },
   {
     "id": "m010",
@@ -189,6 +333,15 @@
     "poster": "posters/m039.jpg"
   },
   {
+    "id": "at037",
+    "title": "Chainsaw Man",
+    "rating": 8.3,
+    "year": 2022,
+    "meta": "MAPPA, Action/Horror",
+    "category": "anime-tv",
+    "poster": "posters/at037.jpg"
+  },
+  {
     "id": "m003",
     "title": "Shutter Island",
     "rating": 8.2,
@@ -268,6 +421,33 @@
     "meta": "Joseph Kosinski, Action",
     "category": "movie",
     "poster": "posters/m048.jpg"
+  },
+  {
+    "id": "at005",
+    "title": "Psycho-Pass",
+    "rating": 8.2,
+    "year": 2012,
+    "meta": "Production I.G, Sci-Fi/Thriller",
+    "category": "anime-tv",
+    "poster": "posters/at005.jpg"
+  },
+  {
+    "id": "at015",
+    "title": "Assassination Classroom",
+    "rating": 8.2,
+    "year": 2015,
+    "meta": "Lerche, Action/Comedy",
+    "category": "anime-tv",
+    "poster": "posters/at015.jpg"
+  },
+  {
+    "id": "at039",
+    "title": "Oshi no Ko",
+    "rating": 8.2,
+    "year": 2023,
+    "meta": "Doga Kobo, Drama/Thriller",
+    "category": "anime-tv",
+    "poster": "posters/at039.jpg"
   },
   {
     "id": "m008",
@@ -376,5 +556,23 @@
     "meta": "James Mangold, Action/Drama",
     "category": "movie",
     "poster": "posters/m057.jpg"
+  },
+  {
+    "id": "at008",
+    "title": "Kill la Kill",
+    "rating": 8.1,
+    "year": 2013,
+    "meta": "Studio Trigger, Action/Comedy",
+    "category": "anime-tv",
+    "poster": "posters/at008.jpg"
+  },
+  {
+    "id": "at045",
+    "title": "Dr. Stone",
+    "rating": 8.1,
+    "year": 2019,
+    "meta": "TMS, Adventure/Sci-Fi",
+    "category": "anime-tv",
+    "poster": "posters/at045.jpg"
   }
 ]

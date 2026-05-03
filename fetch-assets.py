@@ -43,7 +43,7 @@ def clean_title(t):
 
 
 def omdb_lookup(title, year, category):
-    type_ = "series" if category in ("tv", "anime-tv") else "movie"
+    type_ = "series" if category in ("tv", "anime-tv", "animated-tv") else "movie"
     clean = clean_title(title)
     q = urllib.parse.quote(clean)
     base = f"https://www.omdbapi.com/?t={q}&type={type_}&apikey={OMDB_API_KEY}"

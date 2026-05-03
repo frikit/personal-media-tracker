@@ -1,6 +1,6 @@
 # Watchlist Tracker
 
-A self-contained watchlist tracker for top-rated TV shows, movies, anime films, and anime TV from 2010–2026 (IMDb 8.1+).
+A self-contained watchlist tracker for top-rated TV shows, movies, anime films, anime TV, and animated TV from 2010–2026 (IMDb 8.1+).
 
 ## The model
 
@@ -45,9 +45,9 @@ You can optionally enable GitHub Pages on your fork (**Settings → Pages → So
 
 ## Features
 
-- 190 entries across 4 categories: TV shows (69), movies (60), anime films (15), anime TV (46)
+- 210 entries across 5 categories: TV shows (66), movies (60), anime films (15), anime TV (45), animated TV (24)
 - Poster preview on hover (images bundled in `posters/`, no runtime API calls)
-- Filter by category (TV / Movies / Anime Films / Anime TV)
+- Filter by category (TV / Movies / Anime Films / Anime TV / Animated TV)
 - View modes: All / Unwatched / Watched / Skipped
 - Search across all entries
 - Skip entries you're not interested in (moves to `skipped.json`)
@@ -69,7 +69,7 @@ Edit `to-watch.json` and add entries in this format:
 }
 ```
 
-Categories: `tv`, `movie`, `anime-movie`, `anime-tv`
+Categories: `tv`, `movie`, `anime-movie`, `anime-tv`, `animated-tv`
 
 ## Data
 
