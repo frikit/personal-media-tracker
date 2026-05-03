@@ -55,14 +55,44 @@ function setDirty(){dirty=true;document.getElementById("dirty").classList.add("s
 
 function downloadJSON(data,filename){
   const blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json"});
-  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=filename;a.click();URL.revokeObjectURL(a.href);
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement("a");
+  a.href=url;a.download=filename;a.style.display="none";
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(()=>{document.body.removeChild(a);URL.revokeObjectURL(url);},1000);
 }
-function saveAll(){
+async function putJSON(filename,data){
+  const r=await fetch("/"+filename,{
+    method:"PUT",
+    headers:{"Content-Type":"application/json"},
+    body:JSON.stringify(data,null,2)
+  });
+  if(!r.ok)throw new Error(`${filename}: ${r.status} ${await r.text()}`);
+}
+
+async function saveAll(){
+  try{
+    await Promise.all([
+      putJSON("to-watch.json",toWatch),
+      putJSON("watched.json",watchedList),
+      putJSON("skipped.json",skippedList)
+    ]);
+    dirty=false;document.getElementById("dirty").classList.remove("show");
+    toast("Saved.");
+  }catch(e){
+    console.error(e);
+    toast("Save failed — falling back to downloads. Is the server running?");
+    saveAllAsDownload();
+  }
+}
+
+function saveAllAsDownload(){
   downloadJSON(toWatch,"to-watch.json");
-  setTimeout(()=>downloadJSON(watchedList,"watched.json"),300);
-  setTimeout(()=>downloadJSON(skippedList,"skipped.json"),600);
+  setTimeout(()=>downloadJSON(watchedList,"watched.json"),600);
+  setTimeout(()=>downloadJSON(skippedList,"skipped.json"),1200);
   dirty=false;document.getElementById("dirty").classList.remove("show");
-  toast("All 3 JSON files downloaded — commit them to your repo!");
+  toast("Downloaded 3 JSON files — move them to the repo and commit.");
 }
 function resetAll(){
   if(!confirm("Reset all progress? This moves everything back to to-watch."))return;

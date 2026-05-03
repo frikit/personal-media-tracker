@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "m029",
+    "title": "12th Fail",
+    "rating": 8.5,
+    "year": 2023,
+    "meta": "Vidhu Vinod Chopra, Drama",
+    "category": "movie",
+    "poster": "posters/m029.jpg"
+  },
+  {
+    "id": "m055",
+    "title": "Moonlight",
+    "rating": 8.1,
+    "year": 2016,
+    "meta": "Barry Jenkins, Drama",
+    "category": "movie",
+    "poster": "posters/m055.jpg"
+  }
+]

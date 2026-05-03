@@ -92,7 +92,7 @@
   {
     "id": "t011",
     "title": "Rick and Morty",
-    "rating": 9.0,
+    "rating": 9,
     "year": 2013,
     "meta": "Adult Swim, Animation/Comedy",
     "category": "tv",
@@ -146,7 +146,7 @@
   {
     "id": "t017",
     "title": "Better Call Saul",
-    "rating": 9.0,
+    "rating": 9,
     "year": 2015,
     "meta": "AMC, Crime/Drama",
     "category": "tv",
@@ -180,15 +180,6 @@
     "poster": "posters/t020.jpg"
   },
   {
-    "id": "t021",
-    "title": "Planet Earth II",
-    "rating": 9.4,
-    "year": 2016,
-    "meta": "BBC, Documentary",
-    "category": "tv",
-    "poster": "posters/t021.jpg"
-  },
-  {
     "id": "t022",
     "title": "Blue Planet II",
     "rating": 9.3,
@@ -209,7 +200,7 @@
   {
     "id": "t024",
     "title": "Arcane",
-    "rating": 9.0,
+    "rating": 9,
     "year": 2021,
     "meta": "Netflix, Animation",
     "category": "tv",
@@ -218,7 +209,7 @@
   {
     "id": "t025",
     "title": "Dexter: Resurrection",
-    "rating": 9.0,
+    "rating": 9,
     "year": 2026,
     "meta": "Paramount+, Crime",
     "category": "tv",
@@ -352,7 +343,7 @@
   },
   {
     "id": "t040",
-    "title": "Sh\u014dgun",
+    "title": "Shōgun",
     "rating": 8.7,
     "year": 2024,
     "meta": "FX/Hulu, Drama",
@@ -621,33 +612,6 @@
     "poster": "posters/t069.jpg"
   },
   {
-    "id": "m001",
-    "title": "Inception",
-    "rating": 8.8,
-    "year": 2010,
-    "meta": "Christopher Nolan, Sci-Fi/Thriller",
-    "category": "movie",
-    "poster": "posters/m001.jpg"
-  },
-  {
-    "id": "m002",
-    "title": "Toy Story 3",
-    "rating": 8.3,
-    "year": 2010,
-    "meta": "Pixar, Animation",
-    "category": "movie",
-    "poster": "posters/m002.jpg"
-  },
-  {
-    "id": "m003",
-    "title": "Shutter Island",
-    "rating": 8.2,
-    "year": 2010,
-    "meta": "Martin Scorsese, Thriller",
-    "category": "movie",
-    "poster": "posters/m003.jpg"
-  },
-  {
     "id": "m004",
     "title": "The Social Network",
     "rating": 8.2,
@@ -675,69 +639,6 @@
     "poster": "posters/m006.jpg"
   },
   {
-    "id": "m007",
-    "title": "The Intouchables",
-    "rating": 8.5,
-    "year": 2011,
-    "meta": "Nakache & Toledano, Comedy/Drama",
-    "category": "movie",
-    "poster": "posters/m007.jpg"
-  },
-  {
-    "id": "m008",
-    "title": "Drive",
-    "rating": 8.1,
-    "year": 2011,
-    "meta": "Nicolas Winding Refn, Action/Drama",
-    "category": "movie",
-    "poster": "posters/m008.jpg"
-  },
-  {
-    "id": "m009",
-    "title": "Warrior",
-    "rating": 8.1,
-    "year": 2011,
-    "meta": "Gavin O'Connor, Action/Drama",
-    "category": "movie",
-    "poster": "posters/m009.jpg"
-  },
-  {
-    "id": "m010",
-    "title": "The Dark Knight Rises",
-    "rating": 8.4,
-    "year": 2012,
-    "meta": "Christopher Nolan, Action",
-    "category": "movie",
-    "poster": "posters/m010.jpg"
-  },
-  {
-    "id": "m011",
-    "title": "Django Unchained",
-    "rating": 8.5,
-    "year": 2012,
-    "meta": "Quentin Tarantino, Western/Drama",
-    "category": "movie",
-    "poster": "posters/m011.jpg"
-  },
-  {
-    "id": "m012",
-    "title": "The Wolf of Wall Street",
-    "rating": 8.2,
-    "year": 2013,
-    "meta": "Martin Scorsese, Biography/Comedy",
-    "category": "movie",
-    "poster": "posters/m012.jpg"
-  },
-  {
-    "id": "m013",
-    "title": "12 Years a Slave",
-    "rating": 8.1,
-    "year": 2013,
-    "meta": "Steve McQueen, Drama/History",
-    "category": "movie",
-    "poster": "posters/m013.jpg"
-  },
-  {
     "id": "m014",
     "title": "Her",
     "rating": 8.1,
@@ -745,69 +646,6 @@
     "meta": "Spike Jonze, Romance/Sci-Fi",
     "category": "movie",
     "poster": "posters/m014.jpg"
-  },
-  {
-    "id": "m015",
-    "title": "Interstellar",
-    "rating": 8.7,
-    "year": 2014,
-    "meta": "Christopher Nolan, Sci-Fi/Drama",
-    "category": "movie",
-    "poster": "posters/m015.jpg"
-  },
-  {
-    "id": "m016",
-    "title": "Whiplash",
-    "rating": 8.5,
-    "year": 2014,
-    "meta": "Damien Chazelle, Drama/Music",
-    "category": "movie",
-    "poster": "posters/m016.jpg"
-  },
-  {
-    "id": "m017",
-    "title": "The Grand Budapest Hotel",
-    "rating": 8.1,
-    "year": 2014,
-    "meta": "Wes Anderson, Comedy/Drama",
-    "category": "movie",
-    "poster": "posters/m017.jpg"
-  },
-  {
-    "id": "m018",
-    "title": "Gone Girl",
-    "rating": 8.1,
-    "year": 2014,
-    "meta": "David Fincher, Thriller/Drama",
-    "category": "movie",
-    "poster": "posters/m018.jpg"
-  },
-  {
-    "id": "m019",
-    "title": "Mad Max: Fury Road",
-    "rating": 8.1,
-    "year": 2015,
-    "meta": "George Miller, Action",
-    "category": "movie",
-    "poster": "posters/m019.jpg"
-  },
-  {
-    "id": "m020",
-    "title": "Inside Out",
-    "rating": 8.2,
-    "year": 2015,
-    "meta": "Pixar, Animation",
-    "category": "movie",
-    "poster": "posters/m020.jpg"
-  },
-  {
-    "id": "m021",
-    "title": "The Revenant",
-    "rating": 8.1,
-    "year": 2015,
-    "meta": "Alejandro I\u00f1\u00e1rritu, Adventure/Drama",
-    "category": "movie",
-    "poster": "posters/m021.jpg"
   },
   {
     "id": "m022",
@@ -828,123 +666,6 @@
     "poster": "posters/m023.jpg"
   },
   {
-    "id": "m024",
-    "title": "The Martian",
-    "rating": 8.1,
-    "year": 2015,
-    "meta": "Ridley Scott, Sci-Fi/Adventure",
-    "category": "movie",
-    "poster": "posters/m024.jpg"
-  },
-  {
-    "id": "m025",
-    "title": "Spider-Man: Into the Spider-Verse",
-    "rating": 8.6,
-    "year": 2018,
-    "meta": "Sony, Animation",
-    "category": "movie",
-    "poster": "posters/m025.jpg"
-  },
-  {
-    "id": "m026",
-    "title": "Parasite",
-    "rating": 8.5,
-    "year": 2019,
-    "meta": "Bong Joon-ho, Thriller/Drama",
-    "category": "movie",
-    "poster": "posters/m026.jpg"
-  },
-  {
-    "id": "m027",
-    "title": "Spider-Man: Across the Spider-Verse",
-    "rating": 8.5,
-    "year": 2023,
-    "meta": "Sony, Animation",
-    "category": "movie",
-    "poster": "posters/m027.jpg"
-  },
-  {
-    "id": "m028",
-    "title": "Dune: Part Two",
-    "rating": 8.5,
-    "year": 2024,
-    "meta": "Denis Villeneuve, Sci-Fi",
-    "category": "movie",
-    "poster": "posters/m028.jpg"
-  },
-  {
-    "id": "m029",
-    "title": "12th Fail",
-    "rating": 8.5,
-    "year": 2023,
-    "meta": "Vidhu Vinod Chopra, Drama",
-    "category": "movie",
-    "poster": "posters/m029.jpg"
-  },
-  {
-    "id": "m030",
-    "title": "Your Name",
-    "rating": 8.4,
-    "year": 2016,
-    "meta": "Makoto Shinkai, Animation",
-    "category": "movie",
-    "poster": "posters/m030.jpg"
-  },
-  {
-    "id": "m031",
-    "title": "Logan",
-    "rating": 8.4,
-    "year": 2017,
-    "meta": "James Mangold, Action/Drama",
-    "category": "movie",
-    "poster": "posters/m031.jpg"
-  },
-  {
-    "id": "m032",
-    "title": "Coco",
-    "rating": 8.4,
-    "year": 2017,
-    "meta": "Pixar, Animation",
-    "category": "movie",
-    "poster": "posters/m032.jpg"
-  },
-  {
-    "id": "m033",
-    "title": "Avengers: Infinity War",
-    "rating": 8.4,
-    "year": 2018,
-    "meta": "Russo Brothers, Action",
-    "category": "movie",
-    "poster": "posters/m033.jpg"
-  },
-  {
-    "id": "m034",
-    "title": "Capernaum",
-    "rating": 8.4,
-    "year": 2018,
-    "meta": "Nadine Labaki, Drama",
-    "category": "movie",
-    "poster": "posters/m034.jpg"
-  },
-  {
-    "id": "m035",
-    "title": "Joker",
-    "rating": 8.4,
-    "year": 2019,
-    "meta": "Todd Phillips, Drama/Thriller",
-    "category": "movie",
-    "poster": "posters/m035.jpg"
-  },
-  {
-    "id": "m036",
-    "title": "Avengers: Endgame",
-    "rating": 8.4,
-    "year": 2019,
-    "meta": "Russo Brothers, Action",
-    "category": "movie",
-    "poster": "posters/m036.jpg"
-  },
-  {
     "id": "m037",
     "title": "Hamilton",
     "rating": 8.4,
@@ -952,24 +673,6 @@
     "meta": "Thomas Kail, Musical",
     "category": "movie",
     "poster": "posters/m037.jpg"
-  },
-  {
-    "id": "m038",
-    "title": "Soul",
-    "rating": 8.4,
-    "year": 2020,
-    "meta": "Pixar, Animation",
-    "category": "movie",
-    "poster": "posters/m038.jpg"
-  },
-  {
-    "id": "m039",
-    "title": "Oppenheimer",
-    "rating": 8.3,
-    "year": 2023,
-    "meta": "Christopher Nolan, Drama/History",
-    "category": "movie",
-    "poster": "posters/m039.jpg"
   },
   {
     "id": "m040",
@@ -981,15 +684,6 @@
     "poster": "posters/m040.jpg"
   },
   {
-    "id": "m041",
-    "title": "Three Billboards Outside Ebbing, Missouri",
-    "rating": 8.2,
-    "year": 2017,
-    "meta": "Martin McDonagh, Drama",
-    "category": "movie",
-    "poster": "posters/m041.jpg"
-  },
-  {
     "id": "m042",
     "title": "Get Out",
     "rating": 8.2,
@@ -999,42 +693,6 @@
     "poster": "posters/m042.jpg"
   },
   {
-    "id": "m043",
-    "title": "Green Book",
-    "rating": 8.2,
-    "year": 2018,
-    "meta": "Peter Farrelly, Comedy/Drama",
-    "category": "movie",
-    "poster": "posters/m043.jpg"
-  },
-  {
-    "id": "m044",
-    "title": "Knives Out",
-    "rating": 8.2,
-    "year": 2019,
-    "meta": "Rian Johnson, Mystery/Comedy",
-    "category": "movie",
-    "poster": "posters/m044.jpg"
-  },
-  {
-    "id": "m045",
-    "title": "1917",
-    "rating": 8.2,
-    "year": 2019,
-    "meta": "Sam Mendes, War/Drama",
-    "category": "movie",
-    "poster": "posters/m045.jpg"
-  },
-  {
-    "id": "m046",
-    "title": "Jojo Rabbit",
-    "rating": 8.2,
-    "year": 2019,
-    "meta": "Taika Waititi, Comedy/Drama",
-    "category": "movie",
-    "poster": "posters/m046.jpg"
-  },
-  {
     "id": "m047",
     "title": "The Banshees of Inisherin",
     "rating": 8.2,
@@ -1042,15 +700,6 @@
     "meta": "Martin McDonagh, Drama",
     "category": "movie",
     "poster": "posters/m047.jpg"
-  },
-  {
-    "id": "m048",
-    "title": "Top Gun: Maverick",
-    "rating": 8.2,
-    "year": 2022,
-    "meta": "Joseph Kosinski, Action",
-    "category": "movie",
-    "poster": "posters/m048.jpg"
   },
   {
     "id": "m049",
@@ -1087,51 +736,6 @@
     "meta": "Edward Berger, Thriller/Drama",
     "category": "movie",
     "poster": "posters/m052.jpg"
-  },
-  {
-    "id": "m053",
-    "title": "Hacksaw Ridge",
-    "rating": 8.1,
-    "year": 2016,
-    "meta": "Mel Gibson, War/Drama",
-    "category": "movie",
-    "poster": "posters/m053.jpg"
-  },
-  {
-    "id": "m054",
-    "title": "Zootopia",
-    "rating": 8.1,
-    "year": 2016,
-    "meta": "Disney, Animation",
-    "category": "movie",
-    "poster": "posters/m054.jpg"
-  },
-  {
-    "id": "m055",
-    "title": "Moonlight",
-    "rating": 8.1,
-    "year": 2016,
-    "meta": "Barry Jenkins, Drama",
-    "category": "movie",
-    "poster": "posters/m055.jpg"
-  },
-  {
-    "id": "m056",
-    "title": "Dunkirk",
-    "rating": 8.1,
-    "year": 2017,
-    "meta": "Christopher Nolan, War/Drama",
-    "category": "movie",
-    "poster": "posters/m056.jpg"
-  },
-  {
-    "id": "m057",
-    "title": "Ford v Ferrari",
-    "rating": 8.1,
-    "year": 2019,
-    "meta": "James Mangold, Action/Drama",
-    "category": "movie",
-    "poster": "posters/m057.jpg"
   },
   {
     "id": "m058",
@@ -1288,7 +892,7 @@
   },
   {
     "id": "am015",
-    "title": "Chainsaw Man: The Movie \u2014 Reze Arc",
+    "title": "Chainsaw Man: The Movie — Reze Arc",
     "rating": 8.1,
     "year": 2025,
     "meta": "MAPPA, Action/Horror",
@@ -1352,7 +956,7 @@
   {
     "id": "at007",
     "title": "Attack on Titan",
-    "rating": 9.0,
+    "rating": 9,
     "year": 2013,
     "meta": "Wit Studio, Action/Drama",
     "category": "anime-tv",
@@ -1442,7 +1046,7 @@
   {
     "id": "at017",
     "title": "Arcane",
-    "rating": 9.0,
+    "rating": 9,
     "year": 2021,
     "meta": "Netflix/Riot Games, Action/Adventure",
     "category": "anime-tv",

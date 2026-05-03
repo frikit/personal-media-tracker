@@ -32,14 +32,14 @@ For that reason, the most ergonomic setup is to work locally against your clone,
 
 1. Fork the repo.
 2. Clone your fork locally.
-3. Serve the directory over HTTP. Browsers block `fetch()` over the `file://` protocol, so opening `index.html` directly will fail to load the JSON files. Pick whichever you have:
+3. Run the bundled server (Node 18+ required, no dependencies):
    ```bash
-   python3 -m http.server 8000
-   # or
-   npx serve .
+   node server.js
    ```
+   It serves the directory *and* accepts `PUT` for the three JSON files, so the page can save state directly to disk. If the server isn't running, **Save changes** falls back to downloading the JSON files.
 4. Open `http://localhost:8000`.
-5. Make changes → **Save changes** → move the downloaded JSON files into your clone, overwriting the old ones → `./push.sh "watched Chernobyl"` (or `git add . && git commit -m "..." && git push`).
+5. Make changes → **Save changes** → the three JSON files in your clone are overwritten in place. Works in any browser (Safari, Firefox, Chrome, Edge).
+6. Commit and push: `./push.sh "watched Chernobyl"` (or `git add . && git commit -m "..." && git push`).
 
 You can optionally enable GitHub Pages on your fork (**Settings → Pages → Source → main**) to get a hosted read-only view of your latest committed state. It is *not* a save target.
 
