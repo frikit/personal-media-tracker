@@ -1,0 +1,172 @@
+# LLM / AI assistant files and directories
+.claude/
+.claude-*/
+.cursor/
+.cursorrules
+.aider*
+.continue/
+.codeium/
+.copilot/
+.github/copilot-*
+.windsurf/
+.zed/
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+GEMINI.md
+.gemini/
+.anthropic/
+.openai/
+.llm/
+.ai/
+*.llm
+llm_cache/
+.prompt
+.prompts/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+Icon?
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# IDEs / editors
+# JetBrains (IntelliJ, WebStorm, PyCharm, RubyMine, GoLand, Rider, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+# VS Code / VS Code derivatives (Cursor, Windsurf, Trae)
+.vscode/
+.vscode-test/
+*.code-workspace
+.history/
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+*.un~
+Session.vim
+.netrwhist
+tags
+# Emacs
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list/
+tramp
+.\#*
+# Atom
+.atom/
+# TextMate
+*.tmproj
+*.tmproject
+tmtags
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+.recommenders/
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+# Android Studio
+.gradle/
+local.properties
+captures/
+# Kate / KDevelop
+*.kate-swp
+.kdev4/
+*.kdev4
+# Notepad++
+nppBackup/
+# Brackets
+.brackets.json
+# Espresso, Coda, BBEdit
+*.esproj
+*.coda
+*.bbprojectd
+
+# UI / web framework build outputs and caches
+node_modules/
+bower_components/
+jspm_packages/
+dist/
+build/
+public/build/
+.next/
+.nuxt/
+.svelte-kit/
+.astro/
+.angular/
+.docusaurus/
+.gatsby/
+.remix/
+.vercel/
+.netlify/
+.firebase/
+.expo/
+.expo-shared/
+.parcel-cache/
+.cache/
+.turbo/
+.vite/
+.rollup.cache/
+.webpack/
+.esbuild/
+.swc/
+.rspack/
+storybook-static/
+.storybook-out/
+coverage/
+.nyc_output/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.yarn/cache/
+.yarn/install-state.gz
