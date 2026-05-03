@@ -32,21 +32,27 @@ For that reason, the most ergonomic setup is to work locally against your clone,
 
 1. Fork the repo.
 2. Clone your fork locally.
-3. Open `index.html` in your browser — that's it. No server, no install, no build.
-4. Make changes → **Save changes** → move the downloaded JSON files into your clone, overwriting the old ones → `git add . && git commit -m "watched Chernobyl" && git push`.
+3. Serve the directory over HTTP. Browsers block `fetch()` over the `file://` protocol, so opening `index.html` directly will fail to load the JSON files. Pick whichever you have:
+   ```bash
+   python3 -m http.server 8000
+   # or
+   npx serve .
+   ```
+4. Open `http://localhost:8000`.
+5. Make changes → **Save changes** → move the downloaded JSON files into your clone, overwriting the old ones → `./push.sh "watched Chernobyl"` (or `git add . && git commit -m "..." && git push`).
 
 You can optionally enable GitHub Pages on your fork (**Settings → Pages → Source → main**) to get a hosted read-only view of your latest committed state. It is *not* a save target.
 
 ## Features
 
 - 190 entries across 4 categories: TV shows (69), movies (60), anime films (15), anime TV (46)
-- Poster preview on hover (via OMDb API)
+- Poster preview on hover (images bundled in `posters/`, no runtime API calls)
 - Filter by category (TV / Movies / Anime Films / Anime TV)
 - View modes: All / Unwatched / Watched / Skipped
 - Search across all entries
 - Skip entries you're not interested in (moves to `skipped.json`)
 - Unsaved-changes warning before closing the tab
-- Single HTML file — zero dependencies, zero build step
+- Fully offline — fonts, posters, CSS, and JS all live in the repo
 
 ## Adding new entries
 
