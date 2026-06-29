@@ -51,7 +51,23 @@ function restore(id){
   setDirty();render();
 }
 
-function setDirty(){dirty=true;document.getElementById("dirty").classList.add("show")}
+let saveTimer=null;
+function setDirty(){dirty=true;document.getElementById("dirty").classList.add("show");scheduleSave()}
+function scheduleSave(){clearTimeout(saveTimer);saveTimer=setTimeout(autoSave,400)}
+async function autoSave(){
+  try{
+    await Promise.all([
+      putJSON("to-watch.json",toWatch),
+      putJSON("watched.json",watchedList),
+      putJSON("skipped.json",skippedList)
+    ]);
+    dirty=false;document.getElementById("dirty").classList.remove("show");
+    toast("Saved ✓");
+  }catch(e){
+    console.error(e);
+    toast("Couldn't auto-save — is the server running? Use “Save changes” to download.");
+  }
+}
 
 function downloadJSON(data,filename){
   const blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json"});
@@ -106,46 +122,56 @@ function toast(m){const t=document.getElementById("toast");t.textContent=m;t.cla
 function getTier(r){for(const t of TR)if(r>=t.min)return t.l;return"Other"}
 function rc(r){return r>=9?"re":r>=8.5?"rg":"rb"}
 
-const pp=document.getElementById("poster"),pimg=document.getElementById("pimg"),ptitle=document.getElementById("ptitle");
-let ht=null;
-window._showP=function(e,id){
-  clearTimeout(ht);
-  const item=allItems().find(x=>x.id===id);if(!item)return;
-  ht=setTimeout(()=>{
-    pimg.src=item.poster||"";
-    ptitle.textContent=item.title+" ("+item.year+")";
-    pp.classList.add("vis");posP(e);
-  },300);
-};
-window._moveP=function(e){posP(e)};
-window._hideP=function(){clearTimeout(ht);pp.classList.remove("vis")};
-function posP(e){
-  let x=e.clientX+20,y=e.clientY-60;
-  if(x+160>window.innerWidth)x=e.clientX-180;
-  if(y+280>window.innerHeight)y=window.innerHeight-290;
-  if(y<10)y=10;
-  pp.style.left=x+"px";pp.style.top=y+"px";
-}
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 
-function renderRow(item,listType){
+function shareText(item){
+  const link="https://www.imdb.com/find/?q="+encodeURIComponent(item.title+" "+item.year)+"&s=tt";
+  return item.title+" ("+item.year+") — IMDb "+item.rating.toFixed(1)+"\n"+link;
+}
+function fallbackCopy(text,cb){
+  const ta=document.createElement("textarea");
+  ta.value=text;ta.style.position="fixed";ta.style.opacity="0";
+  document.body.appendChild(ta);ta.focus();ta.select();
+  let ok=false;try{ok=document.execCommand("copy");}catch(e){}
+  document.body.removeChild(ta);
+  ok?cb():toast("Copy failed — select and copy manually");
+}
+window.copyShare=function(id){
+  const item=allItems().find(x=>x.id===id);if(!item)return;
+  const text=shareText(item);
+  const done=()=>toast("Copied “"+item.title+"” — paste to share");
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(done).catch(()=>fallbackCopy(text,done));
+  }else fallbackCopy(text,done);
+};
+
+function renderCard(item,listType){
   const isW=listType==="watched";
   const isSk=listType==="skipped";
-  const cls=isW?"item w":isSk?"item ig":"item";
+  const cls=isW?"card w":isSk?"card sk":"card";
   let actions="";
   if(listType==="towatch"){
-    actions=`<button class="cb" onclick="event.stopPropagation();markWatched('${item.id}')"><svg viewBox="0 0 14 14" fill="none"><path d="M2.5 7.5L5.5 10.5L11.5 3.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>`;
-    actions+=`<button class="sb" onclick="event.stopPropagation();skip('${item.id}')">Skip</button>`;
+    actions=`<button class="act-w" title="Mark watched" onclick="markWatched('${item.id}')">✓ Watched</button>
+      <button class="act-s" title="Skip" onclick="skip('${item.id}')">Skip</button>`;
   }else if(isW){
-    actions=`<div class="cb" onclick="event.stopPropagation();unwatch('${item.id}')" style="background:var(--green);border-color:var(--green)"><svg viewBox="0 0 14 14" fill="none" style="opacity:1"><path d="M2.5 7.5L5.5 10.5L11.5 3.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>`;
+    actions=`<button class="act-u" title="Move back to watchlist" onclick="unwatch('${item.id}')">↺ Unwatch</button>`;
   }else if(isSk){
-    actions=`<button class="rb2" onclick="event.stopPropagation();restore('${item.id}')">Restore</button>`;
+    actions=`<button class="act-r" title="Restore to watchlist" onclick="restore('${item.id}')">Restore</button>`;
   }
-  return `<div class="${cls}" onmouseenter="_showP(event,'${item.id}')" onmousemove="_moveP(event)" onmouseleave="_hideP()">
-  ${actions}
-  <span class="rt ${rc(item.rating)}">${item.rating.toFixed(1)}</span>
-  <span class="tt">${item.title}</span>
-  <span class="yp">${item.year}</span>
-  <span class="mt">${item.meta}</span>
+  actions+=`<button class="act-copy" title="Copy title + IMDb link to share" aria-label="Copy share link" onclick="copyShare('${item.id}')"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>`;
+  const flag=isW?`<div class="flag flag-w">✓ Watched</div>`:isSk?`<div class="flag flag-s">Skipped</div>`:"";
+  return `<div class="${cls}">
+    <div class="pw">
+      <img class="poster" src="${esc(item.poster||"")}" alt="${esc(item.title)}" loading="lazy" onerror="this.classList.add('noimg')">
+      <span class="rt ${rc(item.rating)}">${item.rating.toFixed(1)}</span>
+      <span class="yr">${item.year}</span>
+      ${flag}
+      <div class="ov">${actions}</div>
+    </div>
+    <div class="ci">
+      <div class="ct" title="${esc(item.title)}">${esc(item.title)}</div>
+      <div class="cs"><span class="cm">${esc(item.meta)}</span></div>
+    </div>
   </div>`;
 }
 
@@ -170,7 +196,11 @@ function render(){
   if(activeCat!=="all")source=source.filter(x=>x.item.category===activeCat);
   if(searchQ){const q=searchQ.toLowerCase();source=source.filter(x=>x.item.title.toLowerCase().includes(q)||x.item.meta.toLowerCase().includes(q))}
 
-  source.sort((a,b)=>b.item.rating-a.item.rating);
+  // Watched entries always sink to the end; within each group, sort by rating desc.
+  source.sort((a,b)=>{
+    const aw=a.type==="watched"?1:0,bw=b.type==="watched"?1:0;
+    return aw-bw||b.item.rating-a.item.rating;
+  });
 
   const secs=activeCat==="all"?["tv","movie","anime-movie","anime-tv","animated-tv"]:[activeCat];
   let html="";
@@ -178,14 +208,11 @@ function render(){
     const secItems=source.filter(x=>x.item.category===sec);
     if(!secItems.length)continue;
     html+=`<div class="sec">${SM[sec]}<span class="b">${secItems.length}</span></div>`;
-    if(activeView!=="skipped"){
-      const tiers={};secItems.forEach(x=>{const t=getTier(x.item.rating);if(!tiers[t])tiers[t]=[];tiers[t].push(x)});
-      for(const tr of TR){const g=tiers[tr.l];if(!g)continue;html+=`<div class="tier">${tr.l}</div>`;g.forEach(x=>{html+=renderRow(x.item,x.type)})}
-    }else{
-      secItems.forEach(x=>{html+=renderRow(x.item,x.type)});
-    }
+    html+=`<div class="grid">`;
+    secItems.forEach(x=>{html+=renderCard(x.item,x.type)});
+    html+=`</div>`;
   }
-  if(!html)html=`<div style="text-align:center;padding:3rem;color:var(--text-dim)">${activeView==="skipped"?"No skipped entries":"No entries match"}</div>`;
+  if(!html)html=`<div class="empty">${activeView==="skipped"?"No skipped entries":"No entries match"}</div>`;
   document.getElementById("list").innerHTML=html;
 }
 

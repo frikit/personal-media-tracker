@@ -12,7 +12,7 @@
 <div class="c">
     <header>
         <h1>Watchlist <span>Tracker</span></h1>
-        <p>Fork this repo, tick what you've watched, then <code>Save changes</code> and commit the updated JSON files. Hover titles for poster previews.</p>
+        <p>Tick what you've watched — changes <strong>auto-save</strong> to the JSON files while the server runs. Commit them with <code>./push.sh</code> to keep or share. Hover a poster for actions.</p>
     </header>
     <div class="stats">
         <div class="st">
@@ -70,9 +70,6 @@
         <button class="tbtn" onclick="saveAll()">Save changes (download JSON)</button>
         <button class="tbtn dng" onclick="resetAll()">Reset all progress</button>
     </div>
-</div>
-<div class="pp" id="poster"><img id="pimg" src="" alt="">
-    <div class="pt" id="ptitle"></div>
 </div>
 <div class="toast" id="toast"></div>
 <script src="javascript/app.js" defer></script>
