@@ -141,13 +141,19 @@ function fallbackCopy(text,cb){
   document.body.removeChild(ta);
   ok?cb():toast("Copy failed — select and copy manually");
 }
-window.copyShare=function(id){
-  const item=allItems().find(x=>x.id===id);if(!item)return;
-  const text=shareText(item);
-  const done=()=>toast("Copied “"+item.title+"” — paste to share");
+function doCopy(text,label){
+  const done=()=>toast(label);
   if(navigator.clipboard&&navigator.clipboard.writeText){
     navigator.clipboard.writeText(text).then(done).catch(()=>fallbackCopy(text,done));
   }else fallbackCopy(text,done);
+}
+window.copyShare=function(id){
+  const item=allItems().find(x=>x.id===id);if(!item)return;
+  doCopy(shareText(item),"Copied “"+item.title+"” — paste to share");
+};
+window.copyTitle=function(id){
+  const item=allItems().find(x=>x.id===id);if(!item)return;
+  doCopy(item.title,"Copied title: "+item.title);
 };
 
 function renderCard(item,listType){
@@ -176,7 +182,7 @@ function renderCard(item,listType){
       <div class="ov"><div class="ov-row">${statusBtns}</div><div class="ov-row">${utilBtns}</div></div>
     </div>
     <div class="ci">
-      <div class="ct" title="${esc(item.title)}">${esc(item.title)}</div>
+      <div class="ct"><span class="ctt" title="${esc(item.title)}">${esc(item.title)}</span><button class="ct-copy" title="Copy title" aria-label="Copy title" onclick="copyTitle('${item.id}')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></div>
       <div class="cs"><span class="cm">${esc(item.meta)}</span></div>
     </div>
   </div>`;
