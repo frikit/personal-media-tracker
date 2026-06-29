@@ -124,9 +124,14 @@ function rc(r){return r>=9?"re":r>=8.5?"rg":"rb"}
 
 function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 
+function infoUrl(item){
+  if(item.mal) return "https://myanimelist.net/anime/"+item.mal;
+  if(item.imdb) return "https://www.imdb.com/title/"+item.imdb+"/";
+  return "https://www.imdb.com/find/?q="+encodeURIComponent(item.title+" "+item.year)+"&s=tt";
+}
+function infoSite(item){return item.mal?"MAL":"IMDb"}
 function shareText(item){
-  const link="https://www.imdb.com/find/?q="+encodeURIComponent(item.title+" "+item.year)+"&s=tt";
-  return item.title+" ("+item.year+") — IMDb "+item.rating.toFixed(1)+"\n"+link;
+  return item.title+" ("+item.year+") — "+infoSite(item)+" "+item.rating.toFixed(1)+"\n"+infoUrl(item);
 }
 function fallbackCopy(text,cb){
   const ta=document.createElement("textarea");
@@ -149,16 +154,18 @@ function renderCard(item,listType){
   const isW=listType==="watched";
   const isSk=listType==="skipped";
   const cls=isW?"card w":isSk?"card sk":"card";
-  let actions="";
+  let statusBtns="";
   if(listType==="towatch"){
-    actions=`<button class="act-w" title="Mark watched" onclick="markWatched('${item.id}')">✓ Watched</button>
+    statusBtns=`<button class="act-w" title="Mark watched" onclick="markWatched('${item.id}')">✓ Watched</button>
       <button class="act-s" title="Skip" onclick="skip('${item.id}')">Skip</button>`;
   }else if(isW){
-    actions=`<button class="act-u" title="Move back to watchlist" onclick="unwatch('${item.id}')">↺ Unwatch</button>`;
+    statusBtns=`<button class="act-u" title="Move back to watchlist" onclick="unwatch('${item.id}')">↺ Unwatch</button>`;
   }else if(isSk){
-    actions=`<button class="act-r" title="Restore to watchlist" onclick="restore('${item.id}')">Restore</button>`;
+    statusBtns=`<button class="act-r" title="Restore to watchlist" onclick="restore('${item.id}')">Restore</button>`;
   }
-  actions+=`<button class="act-copy" title="Copy title + IMDb link to share" aria-label="Copy share link" onclick="copyShare('${item.id}')"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>`;
+  const site=infoSite(item);
+  const utilBtns=`<a class="act-open" href="${esc(infoUrl(item))}" target="_blank" rel="noopener noreferrer" title="Open full info on ${site}">${site} ↗</a>`+
+    `<button class="act-copy" title="Copy title + link to share" onclick="copyShare('${item.id}')">Copy</button>`;
   const flag=isW?`<div class="flag flag-w">✓ Watched</div>`:isSk?`<div class="flag flag-s">Skipped</div>`:"";
   return `<div class="${cls}">
     <div class="pw">
@@ -166,7 +173,7 @@ function renderCard(item,listType){
       <span class="rt ${rc(item.rating)}">${item.rating.toFixed(1)}</span>
       <span class="yr">${item.year}</span>
       ${flag}
-      <div class="ov">${actions}</div>
+      <div class="ov"><div class="ov-row">${statusBtns}</div><div class="ov-row">${utilBtns}</div></div>
     </div>
     <div class="ci">
       <div class="ct" title="${esc(item.title)}">${esc(item.title)}</div>
@@ -202,15 +209,21 @@ function render(){
     return aw-bw||b.item.rating-a.item.rating;
   });
 
-  const secs=activeCat==="all"?["tv","movie","anime-movie","anime-tv","animated-tv"]:[activeCat];
+  const cats=activeCat==="all"?["tv","movie","anime-movie","anime-tv","animated-tv"]:[activeCat];
+  const TIERS=[{cls:"elite",label:"★ 9.0 & above",test:r=>r>=9},{cls:"below",label:"Below 9.0",test:r=>r<9}];
   let html="";
-  for(const sec of secs){
-    const secItems=source.filter(x=>x.item.category===sec);
-    if(!secItems.length)continue;
-    html+=`<div class="sec">${SM[sec]}<span class="b">${secItems.length}</span></div>`;
-    html+=`<div class="grid">`;
-    secItems.forEach(x=>{html+=renderCard(x.item,x.type)});
-    html+=`</div>`;
+  for(const tier of TIERS){
+    const tierItems=source.filter(x=>tier.test(x.item.rating));
+    if(!tierItems.length)continue;
+    html+=`<div class="sec ${tier.cls}">${tier.label}<span class="b">${tierItems.length}</span></div>`;
+    for(const sec of cats){
+      const secItems=tierItems.filter(x=>x.item.category===sec);
+      if(!secItems.length)continue;
+      if(activeCat==="all")html+=`<div class="subsec">${SM[sec]}<span class="b2">${secItems.length}</span></div>`;
+      html+=`<div class="grid">`;
+      secItems.forEach(x=>{html+=renderCard(x.item,x.type)});
+      html+=`</div>`;
+    }
   }
   if(!html)html=`<div class="empty">${activeView==="skipped"?"No skipped entries":"No entries match"}</div>`;
   document.getElementById("list").innerHTML=html;
