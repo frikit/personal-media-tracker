@@ -27,6 +27,24 @@
     "poster": "posters/at007.jpg"
   },
   {
+    "id": "t011",
+    "title": "Rick and Morty",
+    "rating": 9,
+    "year": 2013,
+    "meta": "Adult Swim, Animation/Comedy",
+    "category": "animated-tv",
+    "poster": "posters/t011.jpg"
+  },
+  {
+    "id": "t024",
+    "title": "Arcane",
+    "rating": 9,
+    "year": 2021,
+    "meta": "Netflix, Animation",
+    "category": "animated-tv",
+    "poster": "posters/t024.jpg"
+  },
+  {
     "id": "at002",
     "title": "Hunter x Hunter (2011)",
     "rating": 8.9,
@@ -88,6 +106,15 @@
     "meta": "Kinema Citrus, Adventure/Fantasy",
     "category": "anime-tv",
     "poster": "posters/at021.jpg"
+  },
+  {
+    "id": "t038",
+    "title": "Invincible",
+    "rating": 8.7,
+    "year": 2021,
+    "meta": "Prime Video, Animation",
+    "category": "animated-tv",
+    "poster": "posters/t038.jpg"
   },
   {
     "id": "m025",
@@ -315,6 +342,24 @@
     "poster": "posters/m038.jpg"
   },
   {
+    "id": "an012",
+    "title": "Love, Death & Robots",
+    "rating": 8.4,
+    "year": 2019,
+    "meta": "Netflix, Sci-Fi Anthology",
+    "category": "animated-tv",
+    "poster": "posters/an012.jpg"
+  },
+  {
+    "id": "an013",
+    "title": "The Legend of Vox Machina",
+    "rating": 8.4,
+    "year": 2022,
+    "meta": "Prime Video, Fantasy",
+    "category": "animated-tv",
+    "poster": "posters/an013.jpg"
+  },
+  {
     "id": "m002",
     "title": "Toy Story 3",
     "rating": 8.3,
@@ -340,6 +385,24 @@
     "meta": "MAPPA, Action/Horror",
     "category": "anime-tv",
     "poster": "posters/at037.jpg"
+  },
+  {
+    "id": "an016",
+    "title": "Castlevania",
+    "rating": 8.3,
+    "year": 2017,
+    "meta": "Netflix, Action/Fantasy",
+    "category": "animated-tv",
+    "poster": "posters/an016.jpg"
+  },
+  {
+    "id": "an018",
+    "title": "Blue Eye Samurai",
+    "rating": 8.3,
+    "year": 2023,
+    "meta": "Netflix, Action/Drama",
+    "category": "animated-tv",
+    "poster": "posters/an018.jpg"
   },
   {
     "id": "m003",
@@ -448,6 +511,15 @@
     "meta": "Doga Kobo, Drama/Thriller",
     "category": "anime-tv",
     "poster": "posters/at039.jpg"
+  },
+  {
+    "id": "am013",
+    "title": "Demon Slayer: Mugen Train",
+    "rating": 8.2,
+    "year": 2020,
+    "meta": "Haruo Sotozaki, Action",
+    "category": "anime-movie",
+    "poster": "posters/am013.jpg"
   },
   {
     "id": "m008",
@@ -574,5 +646,23 @@
     "meta": "TMS, Adventure/Sci-Fi",
     "category": "anime-tv",
     "poster": "posters/at045.jpg"
+  },
+  {
+    "id": "am015",
+    "title": "Chainsaw Man: The Movie — Reze Arc",
+    "rating": 8.1,
+    "year": 2025,
+    "meta": "MAPPA, Action/Horror",
+    "category": "anime-movie",
+    "poster": "posters/am015.jpg"
+  },
+  {
+    "id": "am001",
+    "title": "The Secret World of Arrietty",
+    "rating": 8.1,
+    "year": 2010,
+    "meta": "Studio Ghibli, Fantasy",
+    "category": "anime-movie",
+    "poster": "posters/am001.jpg"
   }
 ]
