@@ -1,21 +1,13 @@
 [
   {
-    "id": "t001",
-    "title": "Sherlock",
-    "rating": 9.1,
-    "year": 2010,
-    "meta": "BBC, Crime/Drama",
-    "category": "tv",
-    "poster": "posters/t001.jpg"
-  },
-  {
     "id": "t002",
     "title": "Boardwalk Empire",
     "rating": 8.5,
     "year": 2010,
     "meta": "HBO, Crime/Drama",
     "category": "tv",
-    "poster": "posters/t002.jpg"
+    "poster": "posters/t002.jpg",
+    "imdb": "tt0979432"
   },
   {
     "id": "t003",
@@ -24,7 +16,8 @@
     "year": 2010,
     "meta": "FX, Crime/Drama",
     "category": "tv",
-    "poster": "posters/t003.jpg"
+    "poster": "posters/t003.jpg",
+    "imdb": "tt1489428"
   },
   {
     "id": "t004",
@@ -33,7 +26,8 @@
     "year": 2010,
     "meta": "CBS, Legal Drama",
     "category": "tv",
-    "poster": "posters/t004.jpg"
+    "poster": "posters/t004.jpg",
+    "imdb": "tt1442462"
   },
   {
     "id": "t005",
@@ -42,16 +36,8 @@
     "year": 2010,
     "meta": "BBC, Crime/Drama",
     "category": "tv",
-    "poster": "posters/t005.jpg"
-  },
-  {
-    "id": "t006",
-    "title": "Game of Thrones",
-    "rating": 9.2,
-    "year": 2011,
-    "meta": "HBO, Fantasy/Drama",
-    "category": "tv",
-    "poster": "posters/t006.jpg"
+    "poster": "posters/t005.jpg",
+    "imdb": "tt1474684"
   },
   {
     "id": "t007",
@@ -60,7 +46,8 @@
     "year": 2011,
     "meta": "Showtime, Thriller",
     "category": "tv",
-    "poster": "posters/t007.jpg"
+    "poster": "posters/t007.jpg",
+    "imdb": "tt1796960"
   },
   {
     "id": "t008",
@@ -69,7 +56,8 @@
     "year": 2011,
     "meta": "Channel 4/Netflix, Sci-Fi",
     "category": "tv",
-    "poster": "posters/t008.jpg"
+    "poster": "posters/t008.jpg",
+    "imdb": "tt2085059"
   },
   {
     "id": "t009",
@@ -78,25 +66,8 @@
     "year": 2011,
     "meta": "CBS, Sci-Fi/Crime",
     "category": "tv",
-    "poster": "posters/t009.jpg"
-  },
-  {
-    "id": "t010",
-    "title": "House of Cards",
-    "rating": 8.6,
-    "year": 2013,
-    "meta": "Netflix, Political Drama",
-    "category": "tv",
-    "poster": "posters/t010.jpg"
-  },
-  {
-    "id": "t012",
-    "title": "Peaky Blinders",
-    "rating": 8.8,
-    "year": 2013,
-    "meta": "BBC, Crime/Drama",
-    "category": "tv",
-    "poster": "posters/t012.jpg"
+    "poster": "posters/t009.jpg",
+    "imdb": "tt1839578"
   },
   {
     "id": "t013",
@@ -105,7 +76,8 @@
     "year": 2013,
     "meta": "NBC, Crime/Thriller",
     "category": "tv",
-    "poster": "posters/t013.jpg"
+    "poster": "posters/t013.jpg",
+    "imdb": "tt2243973"
   },
   {
     "id": "t014",
@@ -114,16 +86,8 @@
     "year": 2014,
     "meta": "FX, Crime/Drama",
     "category": "tv",
-    "poster": "posters/t014.jpg"
-  },
-  {
-    "id": "t015",
-    "title": "True Detective (S1)",
-    "rating": 8.9,
-    "year": 2014,
-    "meta": "HBO, Crime/Drama",
-    "category": "tv",
-    "poster": "posters/t015.jpg"
+    "poster": "posters/t014.jpg",
+    "imdb": "tt2802850"
   },
   {
     "id": "t016",
@@ -132,7 +96,8 @@
     "year": 2014,
     "meta": "HBO, Drama/Mystery",
     "category": "tv",
-    "poster": "posters/t016.jpg"
+    "poster": "posters/t016.jpg",
+    "imdb": "tt2699128"
   },
   {
     "id": "t017",
@@ -141,16 +106,8 @@
     "year": 2015,
     "meta": "AMC, Crime/Drama",
     "category": "tv",
-    "poster": "posters/t017.jpg"
-  },
-  {
-    "id": "t018",
-    "title": "Mr. Robot",
-    "rating": 8.5,
-    "year": 2015,
-    "meta": "USA Network, Thriller/Drama",
-    "category": "tv",
-    "poster": "posters/t018.jpg"
+    "poster": "posters/t017.jpg",
+    "imdb": "tt3032476"
   },
   {
     "id": "t019",
@@ -159,7 +116,8 @@
     "year": 2015,
     "meta": "Netflix, Crime/Biography",
     "category": "tv",
-    "poster": "posters/t019.jpg"
+    "poster": "posters/t019.jpg",
+    "imdb": "tt2707408"
   },
   {
     "id": "t020",
@@ -168,7 +126,8 @@
     "year": 2015,
     "meta": "Syfy/Amazon, Sci-Fi",
     "category": "tv",
-    "poster": "posters/t020.jpg"
+    "poster": "posters/t020.jpg",
+    "imdb": "tt3230854"
   },
   {
     "id": "t022",
@@ -177,16 +136,8 @@
     "year": 2017,
     "meta": "BBC, Documentary",
     "category": "tv",
-    "poster": "posters/t022.jpg"
-  },
-  {
-    "id": "t023",
-    "title": "Chernobyl",
-    "rating": 9.3,
-    "year": 2019,
-    "meta": "HBO, Mini-series",
-    "category": "tv",
-    "poster": "posters/t023.jpg"
+    "poster": "posters/t022.jpg",
+    "imdb": "tt6769208"
   },
   {
     "id": "t025",
@@ -195,7 +146,8 @@
     "year": 2026,
     "meta": "Paramount+, Crime",
     "category": "tv",
-    "poster": "posters/t025.jpg"
+    "poster": "posters/t025.jpg",
+    "imdb": "tt33043892"
   },
   {
     "id": "t026",
@@ -204,25 +156,8 @@
     "year": 2020,
     "meta": "ESPN/Netflix, Documentary",
     "category": "tv",
-    "poster": "posters/t026.jpg"
-  },
-  {
-    "id": "t027",
-    "title": "Better Call Saul (S5)",
-    "rating": 8.9,
-    "year": 2020,
-    "meta": "AMC, Drama",
-    "category": "tv",
-    "poster": "posters/t027.jpg"
-  },
-  {
-    "id": "t028",
-    "title": "Better Call Saul (S6)",
-    "rating": 8.9,
-    "year": 2022,
-    "meta": "AMC, Drama",
-    "category": "tv",
-    "poster": "posters/t028.jpg"
+    "poster": "posters/t026.jpg",
+    "imdb": "tt8420184"
   },
   {
     "id": "t029",
@@ -231,7 +166,8 @@
     "year": 2019,
     "meta": "Netflix, Mini-series",
     "category": "tv",
-    "poster": "posters/t029.jpg"
+    "poster": "posters/t029.jpg",
+    "imdb": "tt7137906"
   },
   {
     "id": "t030",
@@ -240,7 +176,8 @@
     "year": 2026,
     "meta": "HBO, Fantasy",
     "category": "tv",
-    "poster": "posters/t030.jpg"
+    "poster": "posters/t030.jpg",
+    "imdb": "tt27497448"
   },
   {
     "id": "t031",
@@ -249,7 +186,8 @@
     "year": 2018,
     "meta": "HBO, Drama",
     "category": "tv",
-    "poster": "posters/t031.jpg"
+    "poster": "posters/t031.jpg",
+    "imdb": "tt7660850"
   },
   {
     "id": "t032",
@@ -258,7 +196,8 @@
     "year": 2018,
     "meta": "tvN, K-Drama",
     "category": "tv",
-    "poster": "posters/t032.jpg"
+    "poster": "posters/t032.jpg",
+    "imdb": "tt7923710"
   },
   {
     "id": "t033",
@@ -267,25 +206,8 @@
     "year": 2017,
     "meta": "Netflix, Sci-Fi/Thriller",
     "category": "tv",
-    "poster": "posters/t033.jpg"
-  },
-  {
-    "id": "t034",
-    "title": "Ted Lasso",
-    "rating": 8.8,
-    "year": 2020,
-    "meta": "Apple TV+, Comedy",
-    "category": "tv",
-    "poster": "posters/t034.jpg"
-  },
-  {
-    "id": "t035",
-    "title": "Succession (S4)",
-    "rating": 8.8,
-    "year": 2023,
-    "meta": "HBO, Drama",
-    "category": "tv",
-    "poster": "posters/t035.jpg"
+    "poster": "posters/t033.jpg",
+    "imdb": "tt5753856"
   },
   {
     "id": "t036",
@@ -294,7 +216,8 @@
     "year": 2025,
     "meta": "Netflix, K-Drama",
     "category": "tv",
-    "poster": "posters/t036.jpg"
+    "poster": "posters/t036.jpg",
+    "imdb": "tt26471411"
   },
   {
     "id": "t037",
@@ -303,7 +226,8 @@
     "year": 2019,
     "meta": "BBC/Amazon, Comedy",
     "category": "tv",
-    "poster": "posters/t037.jpg"
+    "poster": "posters/t037.jpg",
+    "imdb": "tt5687612"
   },
   {
     "id": "t039",
@@ -312,16 +236,8 @@
     "year": 2022,
     "meta": "Apple TV+, Sci-Fi/Thriller",
     "category": "tv",
-    "poster": "posters/t039.jpg"
-  },
-  {
-    "id": "t040",
-    "title": "Shōgun",
-    "rating": 8.7,
-    "year": 2024,
-    "meta": "FX/Hulu, Drama",
-    "category": "tv",
-    "poster": "posters/t040.jpg"
+    "poster": "posters/t039.jpg",
+    "imdb": "tt11280740"
   },
   {
     "id": "t041",
@@ -330,16 +246,8 @@
     "year": 2025,
     "meta": "HBO, Medical Drama",
     "category": "tv",
-    "poster": "posters/t041.jpg"
-  },
-  {
-    "id": "t042",
-    "title": "Severance (S2)",
-    "rating": 8.7,
-    "year": 2025,
-    "meta": "Apple TV+, Sci-Fi",
-    "category": "tv",
-    "poster": "posters/t042.jpg"
+    "poster": "posters/t041.jpg",
+    "imdb": "tt31938062"
   },
   {
     "id": "t043",
@@ -348,7 +256,8 @@
     "year": 2016,
     "meta": "Netflix, Sci-Fi/Drama",
     "category": "tv",
-    "poster": "posters/t043.jpg"
+    "poster": "posters/t043.jpg",
+    "imdb": "tt4574334"
   },
   {
     "id": "t044",
@@ -357,7 +266,8 @@
     "year": 2016,
     "meta": "Netflix, Drama",
     "category": "tv",
-    "poster": "posters/t044.jpg"
+    "poster": "posters/t044.jpg",
+    "imdb": "tt4786824"
   },
   {
     "id": "t045",
@@ -366,7 +276,8 @@
     "year": 2017,
     "meta": "Netflix, Crime/Drama",
     "category": "tv",
-    "poster": "posters/t045.jpg"
+    "poster": "posters/t045.jpg",
+    "imdb": "tt5290382"
   },
   {
     "id": "t046",
@@ -375,7 +286,8 @@
     "year": 2019,
     "meta": "Prime Video, Action",
     "category": "tv",
-    "poster": "posters/t046.jpg"
+    "poster": "posters/t046.jpg",
+    "imdb": "tt1190634"
   },
   {
     "id": "t047",
@@ -384,16 +296,8 @@
     "year": 2020,
     "meta": "Netflix, Mini-series",
     "category": "tv",
-    "poster": "posters/t047.jpg"
-  },
-  {
-    "id": "t048",
-    "title": "Adolescence",
-    "rating": 8.6,
-    "year": 2025,
-    "meta": "Netflix, Mini-series",
-    "category": "tv",
-    "poster": "posters/t048.jpg"
+    "poster": "posters/t047.jpg",
+    "imdb": "tt10048342"
   },
   {
     "id": "t049",
@@ -402,7 +306,8 @@
     "year": 2016,
     "meta": "FX, Comedy/Drama",
     "category": "tv",
-    "poster": "posters/t049.jpg"
+    "poster": "posters/t049.jpg",
+    "imdb": "tt4288182"
   },
   {
     "id": "t050",
@@ -411,7 +316,8 @@
     "year": 2016,
     "meta": "HBO, Sci-Fi",
     "category": "tv",
-    "poster": "posters/t050.jpg"
+    "poster": "posters/t050.jpg",
+    "imdb": "tt0475784"
   },
   {
     "id": "t051",
@@ -420,16 +326,8 @@
     "year": 2017,
     "meta": "HBO, Drama",
     "category": "tv",
-    "poster": "posters/t051.jpg"
-  },
-  {
-    "id": "t052",
-    "title": "The Last of Us",
-    "rating": 8.5,
-    "year": 2023,
-    "meta": "HBO, Drama",
-    "category": "tv",
-    "poster": "posters/t052.jpg"
+    "poster": "posters/t051.jpg",
+    "imdb": "tt3920596"
   },
   {
     "id": "t053",
@@ -438,7 +336,8 @@
     "year": 2024,
     "meta": "Prime Video, Sci-Fi",
     "category": "tv",
-    "poster": "posters/t053.jpg"
+    "poster": "posters/t053.jpg",
+    "imdb": "tt12637874"
   },
   {
     "id": "t054",
@@ -447,7 +346,8 @@
     "year": 2022,
     "meta": "Hulu/FX, Drama",
     "category": "tv",
-    "poster": "posters/t054.jpg"
+    "poster": "posters/t054.jpg",
+    "imdb": "tt14452776"
   },
   {
     "id": "t055",
@@ -456,7 +356,8 @@
     "year": 2024,
     "meta": "HBO, Crime/Drama",
     "category": "tv",
-    "poster": "posters/t055.jpg"
+    "poster": "posters/t055.jpg",
+    "imdb": "tt15435876"
   },
   {
     "id": "t056",
@@ -465,7 +366,8 @@
     "year": 2018,
     "meta": "HBO, Dark Comedy",
     "category": "tv",
-    "poster": "posters/t056.jpg"
+    "poster": "posters/t056.jpg",
+    "imdb": "tt5348176"
   },
   {
     "id": "t057",
@@ -474,7 +376,8 @@
     "year": 2017,
     "meta": "Hulu, Drama",
     "category": "tv",
-    "poster": "posters/t057.jpg"
+    "poster": "posters/t057.jpg",
+    "imdb": "tt5834204"
   },
   {
     "id": "t058",
@@ -483,7 +386,8 @@
     "year": 2021,
     "meta": "HBO, Crime/Drama",
     "category": "tv",
-    "poster": "posters/t058.jpg"
+    "poster": "posters/t058.jpg",
+    "imdb": "tt10155688"
   },
   {
     "id": "t059",
@@ -492,16 +396,8 @@
     "year": 2022,
     "meta": "Disney+, Sci-Fi",
     "category": "tv",
-    "poster": "posters/t059.jpg"
-  },
-  {
-    "id": "t060",
-    "title": "Andor (S2)",
-    "rating": 8.4,
-    "year": 2025,
-    "meta": "Disney+, Sci-Fi",
-    "category": "tv",
-    "poster": "posters/t060.jpg"
+    "poster": "posters/t059.jpg",
+    "imdb": "tt9253284"
   },
   {
     "id": "t061",
@@ -510,7 +406,8 @@
     "year": 2020,
     "meta": "BBC/Hulu, Drama",
     "category": "tv",
-    "poster": "posters/t061.jpg"
+    "poster": "posters/t061.jpg",
+    "imdb": "tt9059760"
   },
   {
     "id": "t062",
@@ -519,7 +416,8 @@
     "year": 2022,
     "meta": "HBO, Fantasy",
     "category": "tv",
-    "poster": "posters/t062.jpg"
+    "poster": "posters/t062.jpg",
+    "imdb": "tt11198330"
   },
   {
     "id": "t063",
@@ -528,7 +426,8 @@
     "year": 2023,
     "meta": "Apple TV+, Spy/Thriller",
     "category": "tv",
-    "poster": "posters/t063.jpg"
+    "poster": "posters/t063.jpg",
+    "imdb": "tt5875444"
   },
   {
     "id": "t064",
@@ -537,7 +436,8 @@
     "year": 2019,
     "meta": "HBO, Sci-Fi/Drama",
     "category": "tv",
-    "poster": "posters/t064.jpg"
+    "poster": "posters/t064.jpg",
+    "imdb": "tt7049682"
   },
   {
     "id": "t065",
@@ -546,7 +446,8 @@
     "year": 2023,
     "meta": "Apple TV+, Sci-Fi",
     "category": "tv",
-    "poster": "posters/t065.jpg"
+    "poster": "posters/t065.jpg",
+    "imdb": "tt14688458"
   },
   {
     "id": "t066",
@@ -555,7 +456,8 @@
     "year": 2024,
     "meta": "Netflix, Thriller",
     "category": "tv",
-    "poster": "posters/t066.jpg"
+    "poster": "posters/t066.jpg",
+    "imdb": "tt11016042"
   },
   {
     "id": "t067",
@@ -564,7 +466,8 @@
     "year": 2018,
     "meta": "BBC America, Thriller",
     "category": "tv",
-    "poster": "posters/t067.jpg"
+    "poster": "posters/t067.jpg",
+    "imdb": "tt7016936"
   },
   {
     "id": "t068",
@@ -573,7 +476,8 @@
     "year": 2018,
     "meta": "BBC, Thriller",
     "category": "tv",
-    "poster": "posters/t068.jpg"
+    "poster": "posters/t068.jpg",
+    "imdb": "tt7493974"
   },
   {
     "id": "t069",
@@ -582,7 +486,8 @@
     "year": 2021,
     "meta": "Hulu, Comedy/Mystery",
     "category": "tv",
-    "poster": "posters/t069.jpg"
+    "poster": "posters/t069.jpg",
+    "imdb": "tt11691774"
   },
   {
     "id": "m004",
@@ -591,7 +496,8 @@
     "year": 2010,
     "meta": "David Fincher, Drama/Biography",
     "category": "movie",
-    "poster": "posters/m004.jpg"
+    "poster": "posters/m004.jpg",
+    "imdb": "tt1285016"
   },
   {
     "id": "m005",
@@ -600,7 +506,8 @@
     "year": 2010,
     "meta": "Darren Aronofsky, Thriller/Drama",
     "category": "movie",
-    "poster": "posters/m005.jpg"
+    "poster": "posters/m005.jpg",
+    "imdb": "tt0947798"
   },
   {
     "id": "m006",
@@ -609,7 +516,8 @@
     "year": 2010,
     "meta": "Tom Hooper, Drama/Biography",
     "category": "movie",
-    "poster": "posters/m006.jpg"
+    "poster": "posters/m006.jpg",
+    "imdb": "tt1504320"
   },
   {
     "id": "m014",
@@ -618,25 +526,8 @@
     "year": 2013,
     "meta": "Spike Jonze, Romance/Sci-Fi",
     "category": "movie",
-    "poster": "posters/m014.jpg"
-  },
-  {
-    "id": "m022",
-    "title": "Spotlight",
-    "rating": 8.1,
-    "year": 2015,
-    "meta": "Tom McCarthy, Drama/Biography",
-    "category": "movie",
-    "poster": "posters/m022.jpg"
-  },
-  {
-    "id": "m023",
-    "title": "Room",
-    "rating": 8.1,
-    "year": 2015,
-    "meta": "Lenny Abrahamson, Drama",
-    "category": "movie",
-    "poster": "posters/m023.jpg"
+    "poster": "posters/m014.jpg",
+    "imdb": "tt1798709"
   },
   {
     "id": "m037",
@@ -645,7 +536,8 @@
     "year": 2020,
     "meta": "Thomas Kail, Musical",
     "category": "movie",
-    "poster": "posters/m037.jpg"
+    "poster": "posters/m037.jpg",
+    "imdb": "tt8503618"
   },
   {
     "id": "m040",
@@ -654,7 +546,8 @@
     "year": 2020,
     "meta": "Florian Zeller, Drama",
     "category": "movie",
-    "poster": "posters/m040.jpg"
+    "poster": "posters/m040.jpg",
+    "imdb": "tt10272386"
   },
   {
     "id": "m042",
@@ -663,7 +556,8 @@
     "year": 2017,
     "meta": "Jordan Peele, Horror/Thriller",
     "category": "movie",
-    "poster": "posters/m042.jpg"
+    "poster": "posters/m042.jpg",
+    "imdb": "tt5052448"
   },
   {
     "id": "m047",
@@ -672,7 +566,8 @@
     "year": 2022,
     "meta": "Martin McDonagh, Drama",
     "category": "movie",
-    "poster": "posters/m047.jpg"
+    "poster": "posters/m047.jpg",
+    "imdb": "tt11813216"
   },
   {
     "id": "m049",
@@ -681,25 +576,8 @@
     "year": 2023,
     "meta": "Celine Song, Romance/Drama",
     "category": "movie",
-    "poster": "posters/m049.jpg"
-  },
-  {
-    "id": "m050",
-    "title": "The Wild Robot",
-    "rating": 8.2,
-    "year": 2024,
-    "meta": "Chris Sanders, Animation",
-    "category": "movie",
-    "poster": "posters/m050.jpg"
-  },
-  {
-    "id": "m051",
-    "title": "Flow",
-    "rating": 8.2,
-    "year": 2024,
-    "meta": "Gints Zilbalodis, Animation",
-    "category": "movie",
-    "poster": "posters/m051.jpg"
+    "poster": "posters/m049.jpg",
+    "imdb": "tt13238346"
   },
   {
     "id": "m052",
@@ -708,7 +586,8 @@
     "year": 2024,
     "meta": "Edward Berger, Thriller/Drama",
     "category": "movie",
-    "poster": "posters/m052.jpg"
+    "poster": "posters/m052.jpg",
+    "imdb": "tt20215234"
   },
   {
     "id": "m058",
@@ -717,7 +596,8 @@
     "year": 2023,
     "meta": "Alexander Payne, Comedy/Drama",
     "category": "movie",
-    "poster": "posters/m058.jpg"
+    "poster": "posters/m058.jpg",
+    "imdb": "tt14849194"
   },
   {
     "id": "m059",
@@ -726,7 +606,8 @@
     "year": 2024,
     "meta": "Brady Corbet, Drama",
     "category": "movie",
-    "poster": "posters/m059.jpg"
+    "poster": "posters/m059.jpg",
+    "imdb": "tt8999762"
   },
   {
     "id": "m060",
@@ -735,25 +616,19 @@
     "year": 2025,
     "meta": "Josh Safdie, Drama",
     "category": "movie",
-    "poster": "posters/m060.jpg"
-  },
-  {
-    "id": "am002",
-    "title": "Colorful",
-    "rating": 8.1,
-    "year": 2010,
-    "meta": "Sunrise, Drama/Fantasy",
-    "category": "anime-movie",
-    "poster": "posters/am002.jpg"
+    "poster": "posters/m060.jpg",
+    "imdb": "tt32916440"
   },
   {
     "id": "am003",
     "title": "Wolf Children",
-    "rating": 8.3,
+    "rating": 8.6,
     "year": 2012,
     "meta": "Mamoru Hosoda, Drama/Fantasy",
     "category": "anime-movie",
-    "poster": "posters/am003.jpg"
+    "poster": "posters/am003.jpg",
+    "imdb": "tt2140203",
+    "mal": 12355
   },
   {
     "id": "am004",
@@ -762,70 +637,74 @@
     "year": 2013,
     "meta": "Hayao Miyazaki, Drama/Biography",
     "category": "anime-movie",
-    "poster": "posters/am004.jpg"
+    "poster": "posters/am004.jpg",
+    "imdb": "tt2013293",
+    "mal": 16662
   },
   {
     "id": "am005",
     "title": "The Tale of the Princess Kaguya",
-    "rating": 8.1,
+    "rating": 8.2,
     "year": 2013,
     "meta": "Isao Takahata, Fantasy/Drama",
     "category": "anime-movie",
-    "poster": "posters/am005.jpg"
-  },
-  {
-    "id": "am006",
-    "title": "The Garden of Words",
-    "rating": 8.1,
-    "year": 2013,
-    "meta": "Makoto Shinkai, Romance/Drama",
-    "category": "anime-movie",
-    "poster": "posters/am006.jpg"
+    "poster": "posters/am005.jpg",
+    "imdb": "tt2576852",
+    "mal": 16664
   },
   {
     "id": "am007",
     "title": "Your Name (Kimi no Na wa)",
-    "rating": 8.4,
+    "rating": 8.8,
     "year": 2016,
     "meta": "Makoto Shinkai, Romance/Fantasy",
     "category": "anime-movie",
-    "poster": "posters/am007.jpg"
+    "poster": "posters/am007.jpg",
+    "imdb": "tt5311514",
+    "mal": 32281
   },
   {
     "id": "am008",
     "title": "A Silent Voice (Koe no Katachi)",
-    "rating": 8.4,
+    "rating": 8.9,
     "year": 2016,
     "meta": "Naoko Yamada, Drama",
     "category": "anime-movie",
-    "poster": "posters/am008.jpg"
+    "poster": "posters/am008.jpg",
+    "imdb": "tt8207132",
+    "mal": 28851
   },
   {
     "id": "am009",
     "title": "Demon Slayer: Infinity Castle",
-    "rating": 8.4,
+    "rating": 8.7,
     "year": 2025,
     "meta": "Haruo Sotozaki, Action",
     "category": "anime-movie",
-    "poster": "posters/am009.jpg"
+    "poster": "posters/am009.jpg",
+    "mal": 59192
   },
   {
     "id": "am010",
     "title": "The First Slam Dunk",
-    "rating": 8.3,
+    "rating": 8.7,
     "year": 2022,
     "meta": "Takehiko Inoue, Sports/Drama",
     "category": "anime-movie",
-    "poster": "posters/am010.jpg"
+    "poster": "posters/am010.jpg",
+    "imdb": "tt15242330",
+    "mal": 45649
   },
   {
     "id": "am011",
     "title": "Look Back",
-    "rating": 8.3,
+    "rating": 8.6,
     "year": 2024,
     "meta": "Kiyotaka Oshiyama, Drama",
     "category": "anime-movie",
-    "poster": "posters/am011.jpg"
+    "poster": "posters/am011.jpg",
+    "imdb": "tt31711040",
+    "mal": 58125
   },
   {
     "id": "am012",
@@ -834,25 +713,31 @@
     "year": 2016,
     "meta": "Sunao Katabuchi, War/Drama",
     "category": "anime-movie",
-    "poster": "posters/am012.jpg"
+    "poster": "posters/am012.jpg",
+    "imdb": "tt4769824",
+    "mal": 15227
   },
   {
     "id": "am014",
     "title": "Maquia: When the Promised Flower Blooms",
-    "rating": 8.1,
+    "rating": 8.4,
     "year": 2018,
     "meta": "Mari Okada, Fantasy/Drama",
     "category": "anime-movie",
-    "poster": "posters/am014.jpg"
+    "poster": "posters/am014.jpg",
+    "imdb": "tt7339826",
+    "mal": 35851
   },
   {
     "id": "at001",
     "title": "Steins;Gate",
-    "rating": 8.8,
+    "rating": 9.1,
     "year": 2011,
     "meta": "White Fox, Sci-Fi/Thriller",
     "category": "anime-tv",
-    "poster": "posters/at001.jpg"
+    "poster": "posters/at001.jpg",
+    "imdb": "tt1910272",
+    "mal": 9253
   },
   {
     "id": "at003",
@@ -861,7 +746,9 @@
     "year": 2011,
     "meta": "Shaft, Fantasy/Thriller",
     "category": "anime-tv",
-    "poster": "posters/at003.jpg"
+    "poster": "posters/at003.jpg",
+    "imdb": "tt1773185",
+    "mal": 9756
   },
   {
     "id": "at004",
@@ -870,16 +757,9 @@
     "year": 2011,
     "meta": "Ufotable, Action/Fantasy",
     "category": "anime-tv",
-    "poster": "posters/at004.jpg"
-  },
-  {
-    "id": "at006",
-    "title": "JoJo's Bizarre Adventure",
-    "rating": 8.5,
-    "year": 2012,
-    "meta": "David Production, Action/Adventure",
-    "category": "anime-tv",
-    "poster": "posters/at006.jpg"
+    "poster": "posters/at004.jpg",
+    "imdb": "tt2051178",
+    "mal": 10087
   },
   {
     "id": "at010",
@@ -888,7 +768,9 @@
     "year": 2014,
     "meta": "Madhouse, Action/Horror",
     "category": "anime-tv",
-    "poster": "posters/at010.jpg"
+    "poster": "posters/at010.jpg",
+    "imdb": "tt3358020",
+    "mal": 22535
   },
   {
     "id": "at011",
@@ -897,25 +779,20 @@
     "year": 2014,
     "meta": "Tatsunoko, Sports/Drama",
     "category": "anime-tv",
-    "poster": "posters/at011.jpg"
+    "poster": "posters/at011.jpg",
+    "imdb": "tt3592032",
+    "mal": 22135
   },
   {
     "id": "at012",
     "title": "Your Lie in April",
-    "rating": 8.5,
+    "rating": 8.6,
     "year": 2014,
     "meta": "A-1 Pictures, Drama/Romance",
     "category": "anime-tv",
-    "poster": "posters/at012.jpg"
-  },
-  {
-    "id": "at014",
-    "title": "Death Parade",
-    "rating": 8.1,
-    "year": 2015,
-    "meta": "Madhouse, Drama/Thriller",
-    "category": "anime-tv",
-    "poster": "posters/at014.jpg"
+    "poster": "posters/at012.jpg",
+    "imdb": "tt3895150",
+    "mal": 23273
   },
   {
     "id": "at019",
@@ -924,7 +801,9 @@
     "year": 2019,
     "meta": "Wit Studio/MAPPA, Action/Drama",
     "category": "anime-tv",
-    "poster": "posters/at019.jpg"
+    "poster": "posters/at019.jpg",
+    "imdb": "tt10233448",
+    "mal": 37521
   },
   {
     "id": "at028",
@@ -933,16 +812,20 @@
     "year": 2019,
     "meta": "CloverWorks, Thriller/Mystery",
     "category": "anime-tv",
-    "poster": "posters/at028.jpg"
+    "poster": "posters/at028.jpg",
+    "imdb": "tt8788458",
+    "mal": 37779
   },
   {
     "id": "at029",
     "title": "Spy x Family",
-    "rating": 8.5,
+    "rating": 8.4,
     "year": 2022,
     "meta": "Wit Studio/CloverWorks, Action/Comedy",
     "category": "anime-tv",
-    "poster": "posters/at029.jpg"
+    "poster": "posters/at029.jpg",
+    "imdb": "tt13706018",
+    "mal": 50265
   },
   {
     "id": "at033",
@@ -951,97 +834,107 @@
     "year": 2016,
     "meta": "Shaft, Drama/Slice of Life",
     "category": "anime-tv",
-    "poster": "posters/at033.jpg"
+    "poster": "posters/at033.jpg",
+    "imdb": "tt6074794",
+    "mal": 31646
   },
   {
     "id": "at034",
     "title": "Odd Taxi",
-    "rating": 8.4,
+    "rating": 8.6,
     "year": 2021,
     "meta": "OLM/P.I.C.S., Mystery/Drama",
     "category": "anime-tv",
-    "poster": "posters/at034.jpg"
+    "poster": "posters/at034.jpg",
+    "imdb": "tt14134550",
+    "mal": 46102
   },
   {
     "id": "at035",
     "title": "Bocchi the Rock!",
-    "rating": 8.4,
+    "rating": 8.7,
     "year": 2022,
     "meta": "CloverWorks, Comedy/Music",
     "category": "anime-tv",
-    "poster": "posters/at035.jpg"
+    "poster": "posters/at035.jpg",
+    "imdb": "tt17158756",
+    "mal": 47917
   },
   {
     "id": "at036",
     "title": "The Apothecary Diaries",
-    "rating": 8.4,
-    "year": 2024,
+    "rating": 8.8,
+    "year": 2023,
     "meta": "TOHO Animation/OLM, Drama/Mystery",
     "category": "anime-tv",
-    "poster": "posters/at036.jpg"
+    "poster": "posters/at036.jpg",
+    "imdb": "tt26743760",
+    "mal": 54492
   },
   {
     "id": "at038",
     "title": "86: Eighty-Six",
-    "rating": 8.2,
+    "rating": 8.3,
     "year": 2021,
     "meta": "A-1 Pictures, Action/Drama",
     "category": "anime-tv",
-    "poster": "posters/at038.jpg"
+    "poster": "posters/at038.jpg",
+    "imdb": "tt13718450",
+    "mal": 41457
   },
   {
     "id": "at040",
     "title": "Pluto",
-    "rating": 8.2,
+    "rating": 8.4,
     "year": 2023,
     "meta": "Studio M2, Sci-Fi/Mystery",
     "category": "anime-tv",
-    "poster": "posters/at040.jpg"
+    "poster": "posters/at040.jpg",
+    "imdb": "tt26737616",
+    "mal": 35737
   },
   {
     "id": "at041",
     "title": "Re:Zero",
-    "rating": 8.1,
+    "rating": 8.2,
     "year": 2016,
     "meta": "White Fox, Fantasy/Thriller",
     "category": "anime-tv",
-    "poster": "posters/at041.jpg"
-  },
-  {
-    "id": "at042",
-    "title": "Yuri!!! on Ice",
-    "rating": 8.1,
-    "year": 2016,
-    "meta": "MAPPA, Sports/Drama",
-    "category": "anime-tv",
-    "poster": "posters/at042.jpg"
+    "poster": "posters/at041.jpg",
+    "mal": 31240
   },
   {
     "id": "at043",
     "title": "Banana Fish",
-    "rating": 8.1,
+    "rating": 8.4,
     "year": 2018,
     "meta": "MAPPA, Action/Drama",
     "category": "anime-tv",
-    "poster": "posters/at043.jpg"
+    "poster": "posters/at043.jpg",
+    "imdb": "tt8515016",
+    "mal": 36649
   },
   {
     "id": "at044",
     "title": "Dororo",
-    "rating": 8.1,
+    "rating": 8.3,
     "year": 2019,
     "meta": "MAPPA/Tezuka, Action/Adventure",
     "category": "anime-tv",
-    "poster": "posters/at044.jpg"
+    "poster": "posters/at044.jpg",
+    "imdb": "tt9458304",
+    "mal": 37520
   },
   {
     "id": "at046",
     "title": "Great Pretender",
-    "rating": 8.1,
+    "rating": 8.2,
     "year": 2020,
     "meta": "Wit Studio, Action/Comedy",
     "category": "anime-tv",
-    "poster": "posters/at046.jpg"
+    "poster": "posters/at046.jpg",
+    "imdb": "tt11680468",
+    "mal": 40052
   },
   {
     "id": "an001",
@@ -1050,7 +943,8 @@
     "year": 2024,
     "meta": "Disney+, Action/Sci-Fi",
     "category": "animated-tv",
-    "poster": "posters/an001.jpg"
+    "poster": "posters/an001.jpg",
+    "imdb": "tt16026746"
   },
   {
     "id": "an002",
@@ -1059,7 +953,8 @@
     "year": 2012,
     "meta": "Disney, Mystery/Comedy",
     "category": "animated-tv",
-    "poster": "posters/an002.jpg"
+    "poster": "posters/an002.jpg",
+    "imdb": "tt1865718"
   },
   {
     "id": "an003",
@@ -1068,7 +963,8 @@
     "year": 2014,
     "meta": "Netflix, Drama/Comedy",
     "category": "animated-tv",
-    "poster": "posters/an003.jpg"
+    "poster": "posters/an003.jpg",
+    "imdb": "tt3398228"
   },
   {
     "id": "an004",
@@ -1077,7 +973,8 @@
     "year": 2022,
     "meta": "AMC+, Sci-Fi/Drama",
     "category": "animated-tv",
-    "poster": "posters/an004.jpg"
+    "poster": "posters/an004.jpg",
+    "imdb": "tt11680642"
   },
   {
     "id": "an005",
@@ -1086,7 +983,8 @@
     "year": 2010,
     "meta": "Cartoon Network, Adventure/Comedy",
     "category": "animated-tv",
-    "poster": "posters/an005.jpg"
+    "poster": "posters/an005.jpg",
+    "imdb": "tt1305826"
   },
   {
     "id": "an006",
@@ -1095,7 +993,8 @@
     "year": 2019,
     "meta": "Adult Swim, Action/Adventure",
     "category": "animated-tv",
-    "poster": "posters/an006.jpg"
+    "poster": "posters/an006.jpg",
+    "imdb": "tt10332508"
   },
   {
     "id": "an007",
@@ -1104,7 +1003,8 @@
     "year": 2025,
     "meta": "Adult Swim, Dark Comedy",
     "category": "animated-tv",
-    "poster": "posters/an007.jpg"
+    "poster": "posters/an007.jpg",
+    "imdb": "tt28093628"
   },
   {
     "id": "an008",
@@ -1113,7 +1013,8 @@
     "year": 2012,
     "meta": "Nickelodeon, Action/Adventure",
     "category": "animated-tv",
-    "poster": "posters/an008.jpg"
+    "poster": "posters/an008.jpg",
+    "imdb": "tt1695360"
   },
   {
     "id": "an009",
@@ -1122,7 +1023,8 @@
     "year": 2010,
     "meta": "Cartoon Network, Comedy",
     "category": "animated-tv",
-    "poster": "posters/an009.jpg"
+    "poster": "posters/an009.jpg",
+    "imdb": "tt1710308"
   },
   {
     "id": "an010",
@@ -1131,7 +1033,8 @@
     "year": 2022,
     "meta": "Adult Swim, Comedy",
     "category": "animated-tv",
-    "poster": "posters/an010.jpg"
+    "poster": "posters/an010.jpg",
+    "imdb": "tt12074628"
   },
   {
     "id": "an011",
@@ -1140,7 +1043,8 @@
     "year": 2023,
     "meta": "Max, Sci-Fi",
     "category": "animated-tv",
-    "poster": "posters/an011.jpg"
+    "poster": "posters/an011.jpg",
+    "imdb": "tt21056886"
   },
   {
     "id": "an014",
@@ -1149,16 +1053,8 @@
     "year": 2020,
     "meta": "Disney, Fantasy",
     "category": "animated-tv",
-    "poster": "posters/an014.jpg"
-  },
-  {
-    "id": "an015",
-    "title": "Tales of the Jedi",
-    "rating": 8.4,
-    "year": 2022,
-    "meta": "Disney+, Sci-Fi",
-    "category": "animated-tv",
-    "poster": "posters/an015.jpg"
+    "poster": "posters/an014.jpg",
+    "imdb": "tt8050756"
   },
   {
     "id": "an017",
@@ -1167,7 +1063,8 @@
     "year": 2018,
     "meta": "TBS, Sci-Fi/Comedy",
     "category": "animated-tv",
-    "poster": "posters/an017.jpg"
+    "poster": "posters/an017.jpg",
+    "imdb": "tt6317068"
   },
   {
     "id": "an019",
@@ -1176,7 +1073,8 @@
     "year": 2011,
     "meta": "FOX, Comedy",
     "category": "animated-tv",
-    "poster": "posters/an019.jpg"
+    "poster": "posters/an019.jpg",
+    "imdb": "tt1561755"
   },
   {
     "id": "an020",
@@ -1185,7 +1083,8 @@
     "year": 2018,
     "meta": "Netflix, Adventure",
     "category": "animated-tv",
-    "poster": "posters/an020.jpg"
+    "poster": "posters/an020.jpg",
+    "imdb": "tt6385540"
   },
   {
     "id": "an021",
@@ -1194,6 +1093,920 @@
     "year": 2013,
     "meta": "Cartoon Network, Adventure",
     "category": "animated-tv",
-    "poster": "posters/an021.jpg"
+    "poster": "posters/an021.jpg",
+    "imdb": "tt3061046"
+  },
+  {
+    "id": "an022",
+    "title": "Avatar: The Last Airbender",
+    "rating": 9.3,
+    "year": 2005,
+    "meta": "Action/Adventure",
+    "category": "animated-tv",
+    "poster": "posters/an022.jpg",
+    "imdb": "tt0417299"
+  },
+  {
+    "id": "an026",
+    "title": "Archer",
+    "rating": 8.6,
+    "year": 2009,
+    "meta": "Action/Comedy",
+    "category": "animated-tv",
+    "poster": "posters/an026.jpg",
+    "imdb": "tt1486217"
+  },
+  {
+    "id": "an032",
+    "title": "Infinity Train",
+    "rating": 8.4,
+    "year": 2019,
+    "meta": "Short/Action",
+    "category": "animated-tv",
+    "poster": "posters/an032.jpg",
+    "imdb": "tt8146754"
+  },
+  {
+    "id": "an034",
+    "title": "Amphibia",
+    "rating": 8.3,
+    "year": 2019,
+    "meta": "Action/Adventure",
+    "category": "animated-tv",
+    "poster": "posters/an034.jpg",
+    "imdb": "tt8050740"
+  },
+  {
+    "id": "am018",
+    "title": "I Want to Eat Your Pancreas",
+    "rating": 8.6,
+    "year": 2018,
+    "meta": "Drama/Family",
+    "category": "anime-movie",
+    "poster": "posters/am018.jpg",
+    "imdb": "tt7236034",
+    "mal": 36098
+  },
+  {
+    "id": "at049",
+    "title": "Code Geass",
+    "rating": 8.7,
+    "year": 2006,
+    "meta": "Action/Drama",
+    "category": "anime-tv",
+    "poster": "posters/at049.jpg",
+    "mal": 1575
+  },
+  {
+    "id": "at050",
+    "title": "Monster",
+    "rating": 8.9,
+    "year": 2004,
+    "meta": "Crime/Drama",
+    "category": "anime-tv",
+    "poster": "posters/at050.jpg",
+    "imdb": "tt0434706",
+    "mal": 19
+  },
+  {
+    "id": "at051",
+    "title": "Gintama",
+    "rating": 8.9,
+    "year": 2006,
+    "meta": "Action/Comedy",
+    "category": "anime-tv",
+    "poster": "posters/at051.jpg",
+    "imdb": "tt0988818",
+    "mal": 918
+  },
+  {
+    "id": "at055",
+    "title": "Kaguya-sama: Love Is War",
+    "rating": 8.4,
+    "year": 2019,
+    "meta": "Comedy/Drama",
+    "category": "anime-tv",
+    "poster": "posters/at055.jpg",
+    "imdb": "tt9522300",
+    "mal": 37999
+  },
+  {
+    "id": "at056",
+    "title": "Fruits Basket",
+    "rating": 8.2,
+    "year": 2019,
+    "meta": "Comedy/Drama",
+    "category": "anime-tv",
+    "poster": "posters/at056.jpg",
+    "imdb": "tt9304350",
+    "mal": 38680
+  },
+  {
+    "id": "at057",
+    "title": "Nana",
+    "rating": 8.6,
+    "year": 2006,
+    "meta": "Comedy/Drama",
+    "category": "anime-tv",
+    "poster": "posters/at057.jpg",
+    "imdb": "tt0810705",
+    "mal": 877
+  },
+  {
+    "id": "at058",
+    "title": "Erased",
+    "rating": 8.3,
+    "year": 2016,
+    "meta": "Crime/Drama",
+    "category": "anime-tv",
+    "poster": "posters/at058.jpg",
+    "imdb": "tt5249462",
+    "mal": 31043
+  },
+  {
+    "id": "at060",
+    "title": "Gurren Lagann",
+    "rating": 8.6,
+    "year": 2007,
+    "meta": "Action/Adventure",
+    "category": "anime-tv",
+    "poster": "posters/at060.jpg",
+    "imdb": "tt0948103",
+    "mal": 2001
+  },
+  {
+    "id": "at061",
+    "title": "Baccano!",
+    "rating": 8.3,
+    "year": 2007,
+    "meta": "Action/Adventure",
+    "category": "anime-tv",
+    "poster": "posters/at061.jpg",
+    "imdb": "tt1334722",
+    "mal": 2251
+  },
+  {
+    "id": "at063",
+    "title": "Welcome to the NHK",
+    "rating": 8.3,
+    "year": 2006,
+    "meta": "Comedy/Drama",
+    "category": "anime-tv",
+    "poster": "posters/at063.jpg",
+    "imdb": "tt0857297",
+    "mal": 1210
+  },
+  {
+    "id": "at065",
+    "title": "Anohana",
+    "rating": 8.3,
+    "year": 2011,
+    "meta": "Adventure/Drama",
+    "category": "anime-tv",
+    "poster": "posters/at065.jpg",
+    "imdb": "tt1913273",
+    "mal": 9989
+  },
+  {
+    "id": "at066",
+    "title": "A Place Further Than the Universe",
+    "rating": 8.5,
+    "year": 2018,
+    "meta": "Adventure/Comedy",
+    "category": "anime-tv",
+    "poster": "posters/at066.jpg",
+    "imdb": "tt7836688",
+    "mal": 35839
+  },
+  {
+    "id": "at067",
+    "title": "Ouran High School Host Club",
+    "rating": 8.2,
+    "year": 2006,
+    "meta": "Comedy/Romance",
+    "category": "anime-tv",
+    "poster": "posters/at067.jpg",
+    "imdb": "tt0816397",
+    "mal": 853
+  },
+  {
+    "id": "m068",
+    "title": "The Prestige",
+    "rating": 8.5,
+    "year": 2006,
+    "meta": "Drama/Mystery",
+    "category": "movie",
+    "poster": "posters/m068.jpg",
+    "imdb": "tt0482571"
+  },
+  {
+    "id": "m069",
+    "title": "The Departed",
+    "rating": 8.5,
+    "year": 2006,
+    "meta": "Crime/Drama",
+    "category": "movie",
+    "poster": "posters/m069.jpg",
+    "imdb": "tt0407887"
+  },
+  {
+    "id": "m071",
+    "title": "The Lives of Others",
+    "rating": 8.4,
+    "year": 2006,
+    "meta": "Drama/Mystery",
+    "category": "movie",
+    "poster": "posters/m071.jpg",
+    "imdb": "tt0405094"
+  },
+  {
+    "id": "m073",
+    "title": "Requiem for a Dream",
+    "rating": 8.3,
+    "year": 2000,
+    "meta": "Drama",
+    "category": "movie",
+    "poster": "posters/m073.jpg",
+    "imdb": "tt0180093"
+  },
+  {
+    "id": "m074",
+    "title": "Amélie",
+    "rating": 8.3,
+    "year": 2002,
+    "meta": "Comedy/Romance",
+    "category": "movie",
+    "poster": "posters/m074.jpg",
+    "imdb": "tt0211915"
+  },
+  {
+    "id": "m075",
+    "title": "Oldboy",
+    "rating": 8.3,
+    "year": 2003,
+    "meta": "Action/Drama",
+    "category": "movie",
+    "poster": "posters/m075.jpg",
+    "imdb": "tt0364569"
+  },
+  {
+    "id": "m076",
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "rating": 8.3,
+    "year": 2004,
+    "meta": "Drama/Romance",
+    "category": "movie",
+    "poster": "posters/m076.jpg",
+    "imdb": "tt0338013"
+  },
+  {
+    "id": "m077",
+    "title": "A Separation",
+    "rating": 8.3,
+    "year": 2011,
+    "meta": "Drama",
+    "category": "movie",
+    "poster": "posters/m077.jpg",
+    "imdb": "tt1832382"
+  },
+  {
+    "id": "m081",
+    "title": "Downfall",
+    "rating": 8.2,
+    "year": 2004,
+    "meta": "Biography/Drama",
+    "category": "movie",
+    "poster": "posters/m081.jpg",
+    "imdb": "tt0363163"
+  },
+  {
+    "id": "m083",
+    "title": "Pan's Labyrinth",
+    "rating": 8.2,
+    "year": 2007,
+    "meta": "Drama/Fantasy",
+    "category": "movie",
+    "poster": "posters/m083.jpg",
+    "imdb": "tt0457430"
+  },
+  {
+    "id": "m084",
+    "title": "There Will Be Blood",
+    "rating": 8.2,
+    "year": 2007,
+    "meta": "Drama",
+    "category": "movie",
+    "poster": "posters/m084.jpg",
+    "imdb": "tt0469494"
+  },
+  {
+    "id": "m085",
+    "title": "No Country for Old Men",
+    "rating": 8.2,
+    "year": 2007,
+    "meta": "Crime/Drama",
+    "category": "movie",
+    "poster": "posters/m085.jpg",
+    "imdb": "tt0477348"
+  },
+  {
+    "id": "m086",
+    "title": "The Secret in Their Eyes",
+    "rating": 8.2,
+    "year": 2009,
+    "meta": "Drama/Mystery",
+    "category": "movie",
+    "poster": "posters/m086.jpg",
+    "imdb": "tt1305806"
+  },
+  {
+    "id": "m087",
+    "title": "Prisoners",
+    "rating": 8.2,
+    "year": 2013,
+    "meta": "Crime/Drama",
+    "category": "movie",
+    "poster": "posters/m087.jpg",
+    "imdb": "tt1392214"
+  },
+  {
+    "id": "m089",
+    "title": "Hotel Rwanda",
+    "rating": 8.1,
+    "year": 2004,
+    "meta": "Biography/Drama",
+    "category": "movie",
+    "poster": "posters/m089.jpg",
+    "imdb": "tt0395169"
+  },
+  {
+    "id": "m090",
+    "title": "Before Sunset",
+    "rating": 8.1,
+    "year": 2004,
+    "meta": "Drama/Romance",
+    "category": "movie",
+    "poster": "posters/m090.jpg",
+    "imdb": "tt0381681"
+  },
+  {
+    "id": "m093",
+    "title": "Gran Torino",
+    "rating": 8.1,
+    "year": 2008,
+    "meta": "Drama",
+    "category": "movie",
+    "poster": "posters/m093.jpg",
+    "imdb": "tt1205489"
+  },
+  {
+    "id": "t070",
+    "title": "Band of Brothers",
+    "rating": 9.4,
+    "year": 2001,
+    "meta": "Action/Drama",
+    "category": "tv",
+    "poster": "posters/t070.jpg",
+    "imdb": "tt0185906"
+  },
+  {
+    "id": "t071",
+    "title": "The Wire",
+    "rating": 9.3,
+    "year": 2002,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t071.jpg",
+    "imdb": "tt0306414"
+  },
+  {
+    "id": "t074",
+    "title": "Curb Your Enthusiasm",
+    "rating": 8.8,
+    "year": 2000,
+    "meta": "Comedy",
+    "category": "tv",
+    "poster": "posters/t074.jpg",
+    "imdb": "tt0264235"
+  },
+  {
+    "id": "t075",
+    "title": "It's Always Sunny in Philadelphia",
+    "rating": 8.8,
+    "year": 2005,
+    "meta": "Comedy",
+    "category": "tv",
+    "poster": "posters/t075.jpg",
+    "imdb": "tt0472954"
+  },
+  {
+    "id": "t076",
+    "title": "The Shield",
+    "rating": 8.7,
+    "year": 2002,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t076.jpg",
+    "imdb": "tt0286486"
+  },
+  {
+    "id": "t077",
+    "title": "Battlestar Galactica",
+    "rating": 8.7,
+    "year": 2004,
+    "meta": "Action/Adventure",
+    "category": "tv",
+    "poster": "posters/t077.jpg",
+    "imdb": "tt0407362"
+  },
+  {
+    "id": "t078",
+    "title": "Six Feet Under",
+    "rating": 8.7,
+    "year": 2001,
+    "meta": "Comedy/Drama",
+    "category": "tv",
+    "poster": "posters/t078.jpg",
+    "imdb": "tt0248654"
+  },
+  {
+    "id": "t079",
+    "title": "Mad Men",
+    "rating": 8.7,
+    "year": 2007,
+    "meta": "Drama",
+    "category": "tv",
+    "poster": "posters/t079.jpg",
+    "imdb": "tt0804503"
+  },
+  {
+    "id": "t081",
+    "title": "Friday Night Lights",
+    "rating": 8.7,
+    "year": 2006,
+    "meta": "Drama/Sport",
+    "category": "tv",
+    "poster": "posters/t081.jpg",
+    "imdb": "tt0758745"
+  },
+  {
+    "id": "t082",
+    "title": "Peep Show",
+    "rating": 8.7,
+    "year": 2003,
+    "meta": "Comedy",
+    "category": "tv",
+    "poster": "posters/t082.jpg",
+    "imdb": "tt0387764"
+  },
+  {
+    "id": "t083",
+    "title": "The Thick of It",
+    "rating": 8.7,
+    "year": 2005,
+    "meta": "Comedy",
+    "category": "tv",
+    "poster": "posters/t083.jpg",
+    "imdb": "tt0459159"
+  },
+  {
+    "id": "t084",
+    "title": "House",
+    "rating": 8.7,
+    "year": 2004,
+    "meta": "Drama",
+    "category": "tv",
+    "poster": "posters/t084.jpg",
+    "imdb": "tt0412142"
+  },
+  {
+    "id": "t085",
+    "title": "Downton Abbey",
+    "rating": 8.7,
+    "year": 2010,
+    "meta": "Drama/Romance",
+    "category": "tv",
+    "poster": "posters/t085.jpg",
+    "imdb": "tt1606375"
+  },
+  {
+    "id": "t086",
+    "title": "Line of Duty",
+    "rating": 8.7,
+    "year": 2012,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t086.jpg",
+    "imdb": "tt2303687"
+  },
+  {
+    "id": "t087",
+    "title": "Deadwood",
+    "rating": 8.6,
+    "year": 2004,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t087.jpg",
+    "imdb": "tt0348914"
+  },
+  {
+    "id": "t088",
+    "title": "Parks and Recreation",
+    "rating": 8.6,
+    "year": 2009,
+    "meta": "Comedy",
+    "category": "tv",
+    "poster": "posters/t088.jpg",
+    "imdb": "tt1266020"
+  },
+  {
+    "id": "t089",
+    "title": "Arrested Development",
+    "rating": 8.6,
+    "year": 2003,
+    "meta": "Comedy",
+    "category": "tv",
+    "poster": "posters/t089.jpg",
+    "imdb": "tt0367279"
+  },
+  {
+    "id": "t090",
+    "title": "Dexter",
+    "rating": 8.6,
+    "year": 2006,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t090.jpg",
+    "imdb": "tt0773262"
+  },
+  {
+    "id": "t091",
+    "title": "Gomorrah",
+    "rating": 8.6,
+    "year": 2014,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t091.jpg",
+    "imdb": "tt2049116"
+  },
+  {
+    "id": "t092",
+    "title": "The Bridge",
+    "rating": 8.6,
+    "year": 2011,
+    "meta": "Crime/Mystery",
+    "category": "tv",
+    "poster": "posters/t092.jpg",
+    "imdb": "tt1733785"
+  },
+  {
+    "id": "t093",
+    "title": "The Newsroom",
+    "rating": 8.6,
+    "year": 2012,
+    "meta": "Drama",
+    "category": "tv",
+    "poster": "posters/t093.jpg",
+    "imdb": "tt1870479"
+  },
+  {
+    "id": "t096",
+    "title": "Doctor Who",
+    "rating": 8.5,
+    "year": 2005,
+    "meta": "Adventure/Drama",
+    "category": "tv",
+    "poster": "posters/t096.jpg",
+    "imdb": "tt0436992"
+  },
+  {
+    "id": "t097",
+    "title": "Community",
+    "rating": 8.5,
+    "year": 2009,
+    "meta": "Comedy",
+    "category": "tv",
+    "poster": "posters/t097.jpg",
+    "imdb": "tt1439629"
+  },
+  {
+    "id": "t098",
+    "title": "Sons of Anarchy",
+    "rating": 8.5,
+    "year": 2008,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t098.jpg",
+    "imdb": "tt1124373"
+  },
+  {
+    "id": "t099",
+    "title": "Flight of the Conchords",
+    "rating": 8.5,
+    "year": 2007,
+    "meta": "Comedy/Music",
+    "category": "tv",
+    "poster": "posters/t099.jpg",
+    "imdb": "tt0863046"
+  },
+  {
+    "id": "t100",
+    "title": "Borgen",
+    "rating": 8.5,
+    "year": 2010,
+    "meta": "Drama",
+    "category": "tv",
+    "poster": "posters/t100.jpg",
+    "imdb": "tt1526318"
+  },
+  {
+    "id": "t101",
+    "title": "Spiral",
+    "rating": 8.5,
+    "year": 2005,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t101.jpg",
+    "imdb": "tt0477507"
+  },
+  {
+    "id": "t102",
+    "title": "Happy Valley",
+    "rating": 8.5,
+    "year": 2014,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t102.jpg",
+    "imdb": "tt3428912"
+  },
+  {
+    "id": "t103",
+    "title": "Generation Kill",
+    "rating": 8.4,
+    "year": 2008,
+    "meta": "Drama/War",
+    "category": "tv",
+    "poster": "posters/t103.jpg",
+    "imdb": "tt0995832"
+  },
+  {
+    "id": "t104",
+    "title": "John Adams",
+    "rating": 8.4,
+    "year": 2008,
+    "meta": "Biography/Drama",
+    "category": "tv",
+    "poster": "posters/t104.jpg",
+    "imdb": "tt0472027"
+  },
+  {
+    "id": "t105",
+    "title": "Carnivàle",
+    "rating": 8.4,
+    "year": 2003,
+    "meta": "Drama/Fantasy",
+    "category": "tv",
+    "poster": "posters/t105.jpg",
+    "imdb": "tt0319969"
+  },
+  {
+    "id": "t107",
+    "title": "The Inbetweeners",
+    "rating": 8.4,
+    "year": 2008,
+    "meta": "Comedy",
+    "category": "tv",
+    "poster": "posters/t107.jpg",
+    "imdb": "tt1220617"
+  },
+  {
+    "id": "t108",
+    "title": "24",
+    "rating": 8.4,
+    "year": 2001,
+    "meta": "Action/Crime",
+    "category": "tv",
+    "poster": "posters/t108.jpg",
+    "imdb": "tt0285331"
+  },
+  {
+    "id": "t109",
+    "title": "Life on Mars",
+    "rating": 8.4,
+    "year": 2006,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t109.jpg",
+    "imdb": "tt0478942"
+  },
+  {
+    "id": "t110",
+    "title": "Pushing Daisies",
+    "rating": 8.4,
+    "year": 2007,
+    "meta": "Comedy/Drama",
+    "category": "tv",
+    "poster": "posters/t110.jpg",
+    "imdb": "tt0925266"
+  },
+  {
+    "id": "t111",
+    "title": "Supernatural",
+    "rating": 8.4,
+    "year": 2005,
+    "meta": "Drama/Fantasy",
+    "category": "tv",
+    "poster": "posters/t111.jpg",
+    "imdb": "tt0460681"
+  },
+  {
+    "id": "t112",
+    "title": "The Killing",
+    "rating": 8.4,
+    "year": 2007,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t112.jpg",
+    "imdb": "tt0826760"
+  },
+  {
+    "id": "t113",
+    "title": "Babylon Berlin",
+    "rating": 8.4,
+    "year": 2017,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t113.jpg",
+    "imdb": "tt4378376"
+  },
+  {
+    "id": "t114",
+    "title": "Halt and Catch Fire",
+    "rating": 8.4,
+    "year": 2014,
+    "meta": "Drama",
+    "category": "tv",
+    "poster": "posters/t114.jpg",
+    "imdb": "tt2543312"
+  },
+  {
+    "id": "t115",
+    "title": "The Americans",
+    "rating": 8.4,
+    "year": 2013,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t115.jpg",
+    "imdb": "tt2149175"
+  },
+  {
+    "id": "t117",
+    "title": "Entourage",
+    "rating": 8.4,
+    "year": 2004,
+    "meta": "Comedy/Drama",
+    "category": "tv",
+    "poster": "posters/t117.jpg",
+    "imdb": "tt0387199"
+  },
+  {
+    "id": "t118",
+    "title": "30 Rock",
+    "rating": 8.3,
+    "year": 2006,
+    "meta": "Comedy",
+    "category": "tv",
+    "poster": "posters/t118.jpg",
+    "imdb": "tt0496424"
+  },
+  {
+    "id": "t120",
+    "title": "Veronica Mars",
+    "rating": 8.3,
+    "year": 2004,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t120.jpg",
+    "imdb": "tt0412253"
+  },
+  {
+    "id": "t121",
+    "title": "How I Met Your Mother",
+    "rating": 8.3,
+    "year": 2005,
+    "meta": "Comedy/Drama",
+    "category": "tv",
+    "poster": "posters/t121.jpg",
+    "imdb": "tt0460649"
+  },
+  {
+    "id": "t122",
+    "title": "Californication",
+    "rating": 8.3,
+    "year": 2007,
+    "meta": "Comedy/Drama",
+    "category": "tv",
+    "poster": "posters/t122.jpg",
+    "imdb": "tt0904208"
+  },
+  {
+    "id": "t123",
+    "title": "Treme",
+    "rating": 8.3,
+    "year": 2010,
+    "meta": "Drama/Music",
+    "category": "tv",
+    "poster": "posters/t123.jpg",
+    "imdb": "tt1279972"
+  },
+  {
+    "id": "t124",
+    "title": "The Pacific",
+    "rating": 8.3,
+    "year": 2010,
+    "meta": "Action/Adventure",
+    "category": "tv",
+    "poster": "posters/t124.jpg",
+    "imdb": "tt0374463"
+  },
+  {
+    "id": "t125",
+    "title": "Rectify",
+    "rating": 8.3,
+    "year": 2013,
+    "meta": "Drama",
+    "category": "tv",
+    "poster": "posters/t125.jpg",
+    "imdb": "tt2183404"
+  },
+  {
+    "id": "t126",
+    "title": "Broadchurch",
+    "rating": 8.3,
+    "year": 2013,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t126.jpg",
+    "imdb": "tt2249364"
+  },
+  {
+    "id": "t129",
+    "title": "Skins",
+    "rating": 8.2,
+    "year": 2007,
+    "meta": "Drama",
+    "category": "tv",
+    "poster": "posters/t129.jpg",
+    "imdb": "tt0840196"
+  },
+  {
+    "id": "t130",
+    "title": "Party Down",
+    "rating": 8.2,
+    "year": 2009,
+    "meta": "Comedy/Drama",
+    "category": "tv",
+    "poster": "posters/t130.jpg",
+    "imdb": "tt1073507"
+  },
+  {
+    "id": "t131",
+    "title": "Money Heist",
+    "rating": 8.2,
+    "year": 2017,
+    "meta": "Action/Crime",
+    "category": "tv",
+    "poster": "posters/t131.jpg",
+    "imdb": "tt6468322"
+  },
+  {
+    "id": "t133",
+    "title": "The Tudors",
+    "rating": 8.1,
+    "year": 2007,
+    "meta": "Drama/History",
+    "category": "tv",
+    "poster": "posters/t133.jpg",
+    "imdb": "tt0758790"
+  },
+  {
+    "id": "t134",
+    "title": "Damages",
+    "rating": 8.1,
+    "year": 2007,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t134.jpg",
+    "imdb": "tt0914387"
+  },
+  {
+    "id": "t135",
+    "title": "Boss",
+    "rating": 8.1,
+    "year": 2011,
+    "meta": "Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t135.jpg",
+    "imdb": "tt1833285"
   }
 ]

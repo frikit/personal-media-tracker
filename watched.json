@@ -6,25 +6,81 @@
     "year": 2016,
     "meta": "BBC, Documentary",
     "category": "tv",
-    "poster": "posters/t021.jpg"
+    "poster": "posters/t021.jpg",
+    "imdb": "tt5491994"
   },
   {
-    "id": "at016",
-    "title": "Attack on Titan: The Final Season",
+    "id": "t023",
+    "title": "Chernobyl",
+    "rating": 9.3,
+    "year": 2019,
+    "meta": "HBO, Mini-series",
+    "category": "tv",
+    "poster": "posters/t023.jpg",
+    "imdb": "tt7366338"
+  },
+  {
+    "id": "at018",
+    "title": "Frieren: Beyond Journey's End",
+    "rating": 9.3,
+    "year": 2023,
+    "meta": "Madhouse, Adventure/Fantasy",
+    "category": "anime-tv",
+    "poster": "posters/at018.jpg",
+    "imdb": "tt22248376",
+    "mal": 52991
+  },
+  {
+    "id": "t006",
+    "title": "Game of Thrones",
+    "rating": 9.2,
+    "year": 2011,
+    "meta": "HBO, Fantasy/Drama",
+    "category": "tv",
+    "poster": "posters/t006.jpg",
+    "imdb": "tt0944947"
+  },
+  {
+    "id": "m061",
+    "title": "The Dark Knight",
     "rating": 9.1,
-    "year": 2020,
-    "meta": "MAPPA, Action/Drama",
-    "category": "anime-tv",
-    "poster": "posters/at016.jpg"
+    "year": 2008,
+    "meta": "Action/Crime",
+    "category": "movie",
+    "poster": "posters/m061.jpg",
+    "imdb": "tt0468569"
   },
   {
-    "id": "at007",
-    "title": "Attack on Titan",
-    "rating": 9,
-    "year": 2013,
-    "meta": "Wit Studio, Action/Drama",
+    "id": "t001",
+    "title": "Sherlock",
+    "rating": 9.1,
+    "year": 2010,
+    "meta": "BBC, Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t001.jpg",
+    "imdb": "tt1475582"
+  },
+  {
+    "id": "at047",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "rating": 9.1,
+    "year": 2009,
+    "meta": "Action/Adventure",
     "category": "anime-tv",
-    "poster": "posters/at007.jpg"
+    "poster": "posters/at047.jpg",
+    "imdb": "tt1355642",
+    "mal": 5114
+  },
+  {
+    "id": "am015",
+    "title": "Chainsaw Man: The Movie — Reze Arc",
+    "rating": 9.1,
+    "year": 2025,
+    "meta": "MAPPA, Action/Horror",
+    "category": "anime-movie",
+    "poster": "posters/am015.jpg",
+    "imdb": "tt30472557",
+    "mal": 57555
   },
   {
     "id": "t011",
@@ -33,7 +89,8 @@
     "year": 2013,
     "meta": "Adult Swim, Animation/Comedy",
     "category": "animated-tv",
-    "poster": "posters/t011.jpg"
+    "poster": "posters/t011.jpg",
+    "imdb": "tt2861424"
   },
   {
     "id": "t024",
@@ -42,25 +99,80 @@
     "year": 2021,
     "meta": "Netflix, Animation",
     "category": "animated-tv",
-    "poster": "posters/t024.jpg"
+    "poster": "posters/t024.jpg",
+    "imdb": "tt11126994"
+  },
+  {
+    "id": "m062",
+    "title": "The Lord of the Rings: The Return of the King",
+    "rating": 9,
+    "year": 2003,
+    "meta": "Adventure/Drama",
+    "category": "movie",
+    "poster": "posters/m062.jpg",
+    "imdb": "tt0167260"
+  },
+  {
+    "id": "t072",
+    "title": "The Office",
+    "rating": 9,
+    "year": 2005,
+    "meta": "Comedy",
+    "category": "tv",
+    "poster": "posters/t072.jpg",
+    "imdb": "tt0386676"
   },
   {
     "id": "at002",
     "title": "Hunter x Hunter (2011)",
-    "rating": 8.9,
+    "rating": 9,
     "year": 2011,
     "meta": "Madhouse, Action/Adventure",
     "category": "anime-tv",
-    "poster": "posters/at002.jpg"
+    "poster": "posters/at002.jpg",
+    "imdb": "tt2098220",
+    "mal": 11061
   },
   {
-    "id": "at018",
-    "title": "Frieren: Beyond Journey's End",
-    "rating": 8.9,
-    "year": 2023,
-    "meta": "Madhouse, Adventure/Fantasy",
+    "id": "at020",
+    "title": "Bleach: Thousand-Year Blood War",
+    "rating": 9,
+    "year": 2022,
+    "meta": "Pierrot, Action/Fantasy",
     "category": "anime-tv",
-    "poster": "posters/at018.jpg"
+    "poster": "posters/at020.jpg",
+    "imdb": "tt14986406",
+    "mal": 41467
+  },
+  {
+    "id": "m063",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "rating": 8.9,
+    "year": 2001,
+    "meta": "Adventure/Drama",
+    "category": "movie",
+    "poster": "posters/m063.jpg",
+    "imdb": "tt0120737"
+  },
+  {
+    "id": "t015",
+    "title": "True Detective (S1)",
+    "rating": 8.9,
+    "year": 2014,
+    "meta": "HBO, Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t015.jpg",
+    "imdb": "tt2356777"
+  },
+  {
+    "id": "at016",
+    "title": "Attack on Titan: The Final Season",
+    "rating": 8.8,
+    "year": 2021,
+    "meta": "MAPPA, Action/Drama",
+    "category": "anime-tv",
+    "poster": "posters/at016.jpg",
+    "mal": 40028
   },
   {
     "id": "m001",
@@ -69,16 +181,49 @@
     "year": 2010,
     "meta": "Christopher Nolan, Sci-Fi/Thriller",
     "category": "movie",
-    "poster": "posters/m001.jpg"
+    "poster": "posters/m001.jpg",
+    "imdb": "tt1375666"
   },
   {
-    "id": "at020",
-    "title": "Bleach: Thousand-Year Blood War",
+    "id": "m064",
+    "title": "The Lord of the Rings: The Two Towers",
     "rating": 8.8,
-    "year": 2022,
-    "meta": "Pierrot, Action/Fantasy",
-    "category": "anime-tv",
-    "poster": "posters/at020.jpg"
+    "year": 2002,
+    "meta": "Adventure/Drama",
+    "category": "movie",
+    "poster": "posters/m064.jpg",
+    "imdb": "tt0167261"
+  },
+  {
+    "id": "t012",
+    "title": "Peaky Blinders",
+    "rating": 8.8,
+    "year": 2013,
+    "meta": "BBC, Crime/Drama",
+    "category": "tv",
+    "poster": "posters/t012.jpg",
+    "imdb": "tt2442560"
+  },
+  {
+    "id": "t034",
+    "title": "Ted Lasso",
+    "rating": 8.8,
+    "year": 2020,
+    "meta": "Apple TV+, Comedy",
+    "category": "tv",
+    "poster": "posters/t034.jpg",
+    "imdb": "tt10986410"
+  },
+  {
+    "id": "am016",
+    "title": "Spirited Away",
+    "rating": 8.8,
+    "year": 2001,
+    "meta": "Adventure/Family",
+    "category": "anime-movie",
+    "poster": "posters/am016.jpg",
+    "imdb": "tt0245429",
+    "mal": 199
   },
   {
     "id": "m015",
@@ -87,25 +232,8 @@
     "year": 2014,
     "meta": "Christopher Nolan, Sci-Fi/Drama",
     "category": "movie",
-    "poster": "posters/m015.jpg"
-  },
-  {
-    "id": "at013",
-    "title": "One Punch Man",
-    "rating": 8.7,
-    "year": 2015,
-    "meta": "Madhouse, Action/Comedy",
-    "category": "anime-tv",
-    "poster": "posters/at013.jpg"
-  },
-  {
-    "id": "at021",
-    "title": "Made in Abyss",
-    "rating": 8.7,
-    "year": 2017,
-    "meta": "Kinema Citrus, Adventure/Fantasy",
-    "category": "anime-tv",
-    "poster": "posters/at021.jpg"
+    "poster": "posters/m015.jpg",
+    "imdb": "tt0816692"
   },
   {
     "id": "t038",
@@ -114,7 +242,93 @@
     "year": 2021,
     "meta": "Prime Video, Animation",
     "category": "animated-tv",
-    "poster": "posters/t038.jpg"
+    "poster": "posters/t038.jpg",
+    "imdb": "tt6741278"
+  },
+  {
+    "id": "an023",
+    "title": "Over the Garden Wall",
+    "rating": 8.7,
+    "year": 2014,
+    "meta": "Short/Adventure",
+    "category": "animated-tv",
+    "poster": "posters/an023.jpg",
+    "imdb": "tt3718778"
+  },
+  {
+    "id": "t040",
+    "title": "Shōgun",
+    "rating": 8.7,
+    "year": 2024,
+    "meta": "FX/Hulu, Drama",
+    "category": "tv",
+    "poster": "posters/t040.jpg",
+    "imdb": "tt2788316"
+  },
+  {
+    "id": "t080",
+    "title": "Rome",
+    "rating": 8.7,
+    "year": 2005,
+    "meta": "Action/Drama",
+    "category": "tv",
+    "poster": "posters/t080.jpg",
+    "imdb": "tt0384766"
+  },
+  {
+    "id": "at027",
+    "title": "Violet Evergarden",
+    "rating": 8.7,
+    "year": 2018,
+    "meta": "Kyoto Animation, Drama/Fantasy",
+    "category": "anime-tv",
+    "poster": "posters/at027.jpg",
+    "imdb": "tt7078180",
+    "mal": 33352
+  },
+  {
+    "id": "am017",
+    "title": "Howl's Moving Castle",
+    "rating": 8.7,
+    "year": 2004,
+    "meta": "Adventure/Family",
+    "category": "anime-movie",
+    "poster": "posters/am017.jpg",
+    "imdb": "tt0347149",
+    "mal": 431
+  },
+  {
+    "id": "at007",
+    "title": "Attack on Titan",
+    "rating": 8.6,
+    "year": 2013,
+    "meta": "Wit Studio, Action/Drama",
+    "category": "anime-tv",
+    "poster": "posters/at007.jpg",
+    "imdb": "tt2560140",
+    "mal": 16498
+  },
+  {
+    "id": "at048",
+    "title": "Death Note",
+    "rating": 8.6,
+    "year": 2006,
+    "meta": "Crime/Drama",
+    "category": "anime-tv",
+    "poster": "posters/at048.jpg",
+    "imdb": "tt0877057",
+    "mal": 1535
+  },
+  {
+    "id": "at021",
+    "title": "Made in Abyss",
+    "rating": 8.6,
+    "year": 2017,
+    "meta": "Kinema Citrus, Adventure/Fantasy",
+    "category": "anime-tv",
+    "poster": "posters/at021.jpg",
+    "imdb": "tt7222086",
+    "mal": 34599
   },
   {
     "id": "m025",
@@ -123,43 +337,103 @@
     "year": 2018,
     "meta": "Sony, Animation",
     "category": "movie",
-    "poster": "posters/m025.jpg"
+    "poster": "posters/m025.jpg",
+    "imdb": "tt4633694"
+  },
+  {
+    "id": "m065",
+    "title": "City of God",
+    "rating": 8.6,
+    "year": 2004,
+    "meta": "Crime/Drama",
+    "category": "movie",
+    "poster": "posters/m065.jpg",
+    "imdb": "tt0317248"
+  },
+  {
+    "id": "t010",
+    "title": "House of Cards",
+    "rating": 8.6,
+    "year": 2013,
+    "meta": "Netflix, Political Drama",
+    "category": "tv",
+    "poster": "posters/t010.jpg",
+    "imdb": "tt1856010"
+  },
+  {
+    "id": "t048",
+    "title": "Adolescence",
+    "rating": 8.6,
+    "year": 2025,
+    "meta": "Netflix, Mini-series",
+    "category": "tv",
+    "poster": "posters/t048.jpg",
+    "imdb": "tt31806037"
+  },
+  {
+    "id": "t094",
+    "title": "Shogun",
+    "rating": 8.6,
+    "year": 2024,
+    "meta": "Action/Adventure",
+    "category": "tv",
+    "poster": "posters/t094.jpg",
+    "imdb": "tt2788316"
+  },
+  {
+    "id": "at030",
+    "title": "Cyberpunk: Edgerunners",
+    "rating": 8.6,
+    "year": 2022,
+    "meta": "Studio Trigger, Action/Sci-Fi",
+    "category": "anime-tv",
+    "poster": "posters/at030.jpg",
+    "imdb": "tt12590266",
+    "mal": 42310
+  },
+  {
+    "id": "at013",
+    "title": "One Punch Man",
+    "rating": 8.5,
+    "year": 2015,
+    "meta": "Madhouse, Action/Comedy",
+    "category": "anime-tv",
+    "poster": "posters/at013.jpg",
+    "imdb": "tt4508902",
+    "mal": 30276
   },
   {
     "id": "at022",
     "title": "Mob Psycho 100",
-    "rating": 8.6,
+    "rating": 8.5,
     "year": 2016,
     "meta": "Bones, Action/Comedy",
     "category": "anime-tv",
-    "poster": "posters/at022.jpg"
-  },
-  {
-    "id": "at023",
-    "title": "Demon Slayer: Kimetsu no Yaiba",
-    "rating": 8.6,
-    "year": 2019,
-    "meta": "Ufotable, Action/Fantasy",
-    "category": "anime-tv",
-    "poster": "posters/at023.jpg"
+    "poster": "posters/at022.jpg",
+    "imdb": "tt5897304",
+    "mal": 32182
   },
   {
     "id": "at024",
     "title": "Jujutsu Kaisen",
-    "rating": 8.6,
+    "rating": 8.5,
     "year": 2020,
     "meta": "MAPPA, Action/Fantasy",
     "category": "anime-tv",
-    "poster": "posters/at024.jpg"
+    "poster": "posters/at024.jpg",
+    "imdb": "tt12343534",
+    "mal": 40748
   },
   {
     "id": "at025",
     "title": "Ranking of Kings",
-    "rating": 8.6,
+    "rating": 8.5,
     "year": 2021,
     "meta": "Wit Studio, Adventure/Fantasy",
     "category": "anime-tv",
-    "poster": "posters/at025.jpg"
+    "poster": "posters/at025.jpg",
+    "imdb": "tt13409432",
+    "mal": 40834
   },
   {
     "id": "m007",
@@ -168,7 +442,8 @@
     "year": 2011,
     "meta": "Nakache & Toledano, Comedy/Drama",
     "category": "movie",
-    "poster": "posters/m007.jpg"
+    "poster": "posters/m007.jpg",
+    "imdb": "tt1675434"
   },
   {
     "id": "m016",
@@ -177,7 +452,8 @@
     "year": 2014,
     "meta": "Damien Chazelle, Drama/Music",
     "category": "movie",
-    "poster": "posters/m016.jpg"
+    "poster": "posters/m016.jpg",
+    "imdb": "tt2582802"
   },
   {
     "id": "m011",
@@ -186,7 +462,8 @@
     "year": 2012,
     "meta": "Quentin Tarantino, Western/Drama",
     "category": "movie",
-    "poster": "posters/m011.jpg"
+    "poster": "posters/m011.jpg",
+    "imdb": "tt1853728"
   },
   {
     "id": "m026",
@@ -195,7 +472,8 @@
     "year": 2019,
     "meta": "Bong Joon-ho, Thriller/Drama",
     "category": "movie",
-    "poster": "posters/m026.jpg"
+    "poster": "posters/m026.jpg",
+    "imdb": "tt6751668"
   },
   {
     "id": "m027",
@@ -204,7 +482,8 @@
     "year": 2023,
     "meta": "Sony, Animation",
     "category": "movie",
-    "poster": "posters/m027.jpg"
+    "poster": "posters/m027.jpg",
+    "imdb": "tt9362722"
   },
   {
     "id": "m028",
@@ -213,52 +492,132 @@
     "year": 2024,
     "meta": "Denis Villeneuve, Sci-Fi",
     "category": "movie",
-    "poster": "posters/m028.jpg"
+    "poster": "posters/m028.jpg",
+    "imdb": "tt15239678"
   },
   {
-    "id": "at027",
-    "title": "Violet Evergarden",
+    "id": "an027",
+    "title": "Samurai Jack",
     "rating": 8.5,
-    "year": 2018,
-    "meta": "Kyoto Animation, Drama/Fantasy",
-    "category": "anime-tv",
-    "poster": "posters/at027.jpg"
+    "year": 2001,
+    "meta": "Action/Adventure",
+    "category": "animated-tv",
+    "poster": "posters/an027.jpg",
+    "imdb": "tt0278238"
   },
   {
-    "id": "at026",
-    "title": "My Hero Academia",
+    "id": "an030",
+    "title": "The Boondocks",
     "rating": 8.5,
-    "year": 2016,
-    "meta": "Bones, Action/Superhero",
-    "category": "anime-tv",
-    "poster": "posters/at026.jpg"
+    "year": 2005,
+    "meta": "Action/Comedy",
+    "category": "animated-tv",
+    "poster": "posters/an030.jpg",
+    "imdb": "tt0373732"
   },
   {
-    "id": "at030",
-    "title": "Cyberpunk: Edgerunners",
+    "id": "at054",
+    "title": "Samurai Champloo",
     "rating": 8.5,
-    "year": 2022,
-    "meta": "Studio Trigger, Action/Sci-Fi",
+    "year": 2004,
+    "meta": "Action/Adventure",
     "category": "anime-tv",
-    "poster": "posters/at030.jpg"
+    "poster": "posters/at054.jpg",
+    "imdb": "tt0423731",
+    "mal": 205
   },
   {
-    "id": "at031",
-    "title": "Solo Leveling",
+    "id": "m066",
+    "title": "Gladiator",
     "rating": 8.5,
-    "year": 2024,
-    "meta": "A-1 Pictures, Action/Fantasy",
+    "year": 2000,
+    "meta": "Action/Adventure",
+    "category": "movie",
+    "poster": "posters/m066.jpg",
+    "imdb": "tt0172495"
+  },
+  {
+    "id": "m067",
+    "title": "The Pianist",
+    "rating": 8.5,
+    "year": 2003,
+    "meta": "Biography/Drama",
+    "category": "movie",
+    "poster": "posters/m067.jpg",
+    "imdb": "tt0253474"
+  },
+  {
+    "id": "t052",
+    "title": "The Last of Us",
+    "rating": 8.5,
+    "year": 2023,
+    "meta": "HBO, Drama",
+    "category": "tv",
+    "poster": "posters/t052.jpg",
+    "imdb": "tt3581920"
+  },
+  {
+    "id": "t095",
+    "title": "The IT Crowd",
+    "rating": 8.5,
+    "year": 2006,
+    "meta": "Comedy",
+    "category": "tv",
+    "poster": "posters/t095.jpg",
+    "imdb": "tt0487831"
+  },
+  {
+    "id": "t018",
+    "title": "Mr. Robot",
+    "rating": 8.5,
+    "year": 2015,
+    "meta": "USA Network, Thriller/Drama",
+    "category": "tv",
+    "poster": "posters/t018.jpg",
+    "imdb": "tt4158110"
+  },
+  {
+    "id": "at039",
+    "title": "Oshi no Ko",
+    "rating": 8.5,
+    "year": 2023,
+    "meta": "Doga Kobo, Drama/Thriller",
     "category": "anime-tv",
-    "poster": "posters/at031.jpg"
+    "poster": "posters/at039.jpg",
+    "imdb": "tt21030032",
+    "mal": 52034
+  },
+  {
+    "id": "am013",
+    "title": "Demon Slayer: Mugen Train",
+    "rating": 8.5,
+    "year": 2020,
+    "meta": "Haruo Sotozaki, Action",
+    "category": "anime-movie",
+    "poster": "posters/am013.jpg",
+    "mal": 40456
+  },
+  {
+    "id": "at023",
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "rating": 8.4,
+    "year": 2019,
+    "meta": "Ufotable, Action/Fantasy",
+    "category": "anime-tv",
+    "poster": "posters/at023.jpg",
+    "imdb": "tt9335498",
+    "mal": 38000
   },
   {
     "id": "at032",
     "title": "Dandadan",
-    "rating": 8.5,
+    "rating": 8.4,
     "year": 2024,
     "meta": "Science SARU, Action/Comedy",
     "category": "anime-tv",
-    "poster": "posters/at032.jpg"
+    "poster": "posters/at032.jpg",
+    "imdb": "tt30217403",
+    "mal": 57334
   },
   {
     "id": "m010",
@@ -267,7 +626,8 @@
     "year": 2012,
     "meta": "Christopher Nolan, Action",
     "category": "movie",
-    "poster": "posters/m010.jpg"
+    "poster": "posters/m010.jpg",
+    "imdb": "tt1345836"
   },
   {
     "id": "m030",
@@ -276,7 +636,8 @@
     "year": 2016,
     "meta": "Makoto Shinkai, Animation",
     "category": "movie",
-    "poster": "posters/m030.jpg"
+    "poster": "posters/m030.jpg",
+    "imdb": "tt5311514"
   },
   {
     "id": "m031",
@@ -285,7 +646,8 @@
     "year": 2017,
     "meta": "James Mangold, Action/Drama",
     "category": "movie",
-    "poster": "posters/m031.jpg"
+    "poster": "posters/m031.jpg",
+    "imdb": "tt3315342"
   },
   {
     "id": "m032",
@@ -294,7 +656,8 @@
     "year": 2017,
     "meta": "Pixar, Animation",
     "category": "movie",
-    "poster": "posters/m032.jpg"
+    "poster": "posters/m032.jpg",
+    "imdb": "tt2380307"
   },
   {
     "id": "m033",
@@ -303,7 +666,8 @@
     "year": 2018,
     "meta": "Russo Brothers, Action",
     "category": "movie",
-    "poster": "posters/m033.jpg"
+    "poster": "posters/m033.jpg",
+    "imdb": "tt4154756"
   },
   {
     "id": "m034",
@@ -312,7 +676,8 @@
     "year": 2018,
     "meta": "Nadine Labaki, Drama",
     "category": "movie",
-    "poster": "posters/m034.jpg"
+    "poster": "posters/m034.jpg",
+    "imdb": "tt8267604"
   },
   {
     "id": "m035",
@@ -321,7 +686,8 @@
     "year": 2019,
     "meta": "Todd Phillips, Drama/Thriller",
     "category": "movie",
-    "poster": "posters/m035.jpg"
+    "poster": "posters/m035.jpg",
+    "imdb": "tt7286456"
   },
   {
     "id": "m036",
@@ -330,7 +696,8 @@
     "year": 2019,
     "meta": "Russo Brothers, Action",
     "category": "movie",
-    "poster": "posters/m036.jpg"
+    "poster": "posters/m036.jpg",
+    "imdb": "tt4154796"
   },
   {
     "id": "m038",
@@ -339,7 +706,8 @@
     "year": 2020,
     "meta": "Pixar, Animation",
     "category": "movie",
-    "poster": "posters/m038.jpg"
+    "poster": "posters/m038.jpg",
+    "imdb": "tt2948372"
   },
   {
     "id": "an012",
@@ -348,7 +716,8 @@
     "year": 2019,
     "meta": "Netflix, Sci-Fi Anthology",
     "category": "animated-tv",
-    "poster": "posters/an012.jpg"
+    "poster": "posters/an012.jpg",
+    "imdb": "tt9561862"
   },
   {
     "id": "an013",
@@ -357,7 +726,70 @@
     "year": 2022,
     "meta": "Prime Video, Fantasy",
     "category": "animated-tv",
-    "poster": "posters/an013.jpg"
+    "poster": "posters/an013.jpg",
+    "imdb": "tt11247158"
+  },
+  {
+    "id": "m070",
+    "title": "Memento",
+    "rating": 8.4,
+    "year": 2001,
+    "meta": "Drama/Mystery",
+    "category": "movie",
+    "poster": "posters/m070.jpg",
+    "imdb": "tt0209144"
+  },
+  {
+    "id": "m072",
+    "title": "Inglourious Basterds",
+    "rating": 8.4,
+    "year": 2009,
+    "meta": "Adventure/Drama",
+    "category": "movie",
+    "poster": "posters/m072.jpg",
+    "imdb": "tt0361748"
+  },
+  {
+    "id": "t116",
+    "title": "Spartacus",
+    "rating": 8.4,
+    "year": 2010,
+    "meta": "Action/Adventure",
+    "category": "tv",
+    "poster": "posters/t116.jpg",
+    "imdb": "tt1442449"
+  },
+  {
+    "id": "t106",
+    "title": "Scrubs",
+    "rating": 8.4,
+    "year": 2001,
+    "meta": "Comedy/Drama",
+    "category": "tv",
+    "poster": "posters/t106.jpg",
+    "imdb": "tt0285403"
+  },
+  {
+    "id": "at037",
+    "title": "Chainsaw Man",
+    "rating": 8.4,
+    "year": 2022,
+    "meta": "MAPPA, Action/Horror",
+    "category": "anime-tv",
+    "poster": "posters/at037.jpg",
+    "imdb": "tt13616990",
+    "mal": 44511
+  },
+  {
+    "id": "at052",
+    "title": "Naruto: Shippuden",
+    "rating": 8.3,
+    "year": 2007,
+    "meta": "Action/Adventure",
+    "category": "anime-tv",
+    "poster": "posters/at052.jpg",
+    "imdb": "tt0988824",
+    "mal": 1735
   },
   {
     "id": "m002",
@@ -366,7 +798,8 @@
     "year": 2010,
     "meta": "Pixar, Animation",
     "category": "movie",
-    "poster": "posters/m002.jpg"
+    "poster": "posters/m002.jpg",
+    "imdb": "tt0435761"
   },
   {
     "id": "m039",
@@ -375,16 +808,8 @@
     "year": 2023,
     "meta": "Christopher Nolan, Drama/History",
     "category": "movie",
-    "poster": "posters/m039.jpg"
-  },
-  {
-    "id": "at037",
-    "title": "Chainsaw Man",
-    "rating": 8.3,
-    "year": 2022,
-    "meta": "MAPPA, Action/Horror",
-    "category": "anime-tv",
-    "poster": "posters/at037.jpg"
+    "poster": "posters/m039.jpg",
+    "imdb": "tt15398776"
   },
   {
     "id": "an016",
@@ -393,7 +818,8 @@
     "year": 2017,
     "meta": "Netflix, Action/Fantasy",
     "category": "animated-tv",
-    "poster": "posters/an016.jpg"
+    "poster": "posters/an016.jpg",
+    "imdb": "tt6517102"
   },
   {
     "id": "an018",
@@ -402,7 +828,72 @@
     "year": 2023,
     "meta": "Netflix, Action/Drama",
     "category": "animated-tv",
-    "poster": "posters/an018.jpg"
+    "poster": "posters/an018.jpg",
+    "imdb": "tt13309742"
+  },
+  {
+    "id": "t119",
+    "title": "Extras",
+    "rating": 8.3,
+    "year": 2005,
+    "meta": "Comedy/Drama",
+    "category": "tv",
+    "poster": "posters/t119.jpg",
+    "imdb": "tt0445114"
+  },
+  {
+    "id": "t127",
+    "title": "Prison Break",
+    "rating": 8.3,
+    "year": 2005,
+    "meta": "Action/Crime",
+    "category": "tv",
+    "poster": "posters/t127.jpg",
+    "imdb": "tt0455275"
+  },
+  {
+    "id": "at005",
+    "title": "Psycho-Pass",
+    "rating": 8.3,
+    "year": 2012,
+    "meta": "Production I.G, Sci-Fi/Thriller",
+    "category": "anime-tv",
+    "poster": "posters/at005.jpg",
+    "imdb": "tt2379308",
+    "mal": 13601
+  },
+  {
+    "id": "at045",
+    "title": "Dr. Stone",
+    "rating": 8.3,
+    "year": 2019,
+    "meta": "TMS, Adventure/Sci-Fi",
+    "category": "anime-tv",
+    "poster": "posters/at045.jpg",
+    "imdb": "tt9679542",
+    "mal": 38691
+  },
+  {
+    "id": "at062",
+    "title": "Hellsing Ultimate",
+    "rating": 8.3,
+    "year": 2006,
+    "meta": "Action/Fantasy",
+    "category": "anime-tv",
+    "poster": "posters/at062.jpg",
+    "imdb": "tt0495212",
+    "mal": 777
+  },
+  {
+    "id": "at031",
+    "title": "Solo Leveling",
+    "rating": 8.2,
+    "year": 2024,
+    "meta": "A-1 Pictures, Action/Fantasy",
+    "category": "anime-tv",
+    "poster": "posters/at031.jpg",
+    "imdb": "tt21209876",
+    "mal": 52299
   },
   {
     "id": "m003",
@@ -411,7 +902,8 @@
     "year": 2010,
     "meta": "Martin Scorsese, Thriller",
     "category": "movie",
-    "poster": "posters/m003.jpg"
+    "poster": "posters/m003.jpg",
+    "imdb": "tt1130884"
   },
   {
     "id": "m012",
@@ -420,7 +912,8 @@
     "year": 2013,
     "meta": "Martin Scorsese, Biography/Comedy",
     "category": "movie",
-    "poster": "posters/m012.jpg"
+    "poster": "posters/m012.jpg",
+    "imdb": "tt0993846"
   },
   {
     "id": "m020",
@@ -429,7 +922,8 @@
     "year": 2015,
     "meta": "Pixar, Animation",
     "category": "movie",
-    "poster": "posters/m020.jpg"
+    "poster": "posters/m020.jpg",
+    "imdb": "tt2096673"
   },
   {
     "id": "m041",
@@ -438,7 +932,8 @@
     "year": 2017,
     "meta": "Martin McDonagh, Drama",
     "category": "movie",
-    "poster": "posters/m041.jpg"
+    "poster": "posters/m041.jpg",
+    "imdb": "tt5027774"
   },
   {
     "id": "m043",
@@ -447,7 +942,8 @@
     "year": 2018,
     "meta": "Peter Farrelly, Comedy/Drama",
     "category": "movie",
-    "poster": "posters/m043.jpg"
+    "poster": "posters/m043.jpg",
+    "imdb": "tt6966692"
   },
   {
     "id": "m044",
@@ -456,7 +952,8 @@
     "year": 2019,
     "meta": "Rian Johnson, Mystery/Comedy",
     "category": "movie",
-    "poster": "posters/m044.jpg"
+    "poster": "posters/m044.jpg",
+    "imdb": "tt8946378"
   },
   {
     "id": "m045",
@@ -465,7 +962,8 @@
     "year": 2019,
     "meta": "Sam Mendes, War/Drama",
     "category": "movie",
-    "poster": "posters/m045.jpg"
+    "poster": "posters/m045.jpg",
+    "imdb": "tt8579674"
   },
   {
     "id": "m046",
@@ -474,7 +972,8 @@
     "year": 2019,
     "meta": "Taika Waititi, Comedy/Drama",
     "category": "movie",
-    "poster": "posters/m046.jpg"
+    "poster": "posters/m046.jpg",
+    "imdb": "tt2584384"
   },
   {
     "id": "m048",
@@ -483,43 +982,79 @@
     "year": 2022,
     "meta": "Joseph Kosinski, Action",
     "category": "movie",
-    "poster": "posters/m048.jpg"
+    "poster": "posters/m048.jpg",
+    "imdb": "tt1745960"
   },
   {
-    "id": "at005",
-    "title": "Psycho-Pass",
+    "id": "m050",
+    "title": "The Wild Robot",
     "rating": 8.2,
-    "year": 2012,
-    "meta": "Production I.G, Sci-Fi/Thriller",
-    "category": "anime-tv",
-    "poster": "posters/at005.jpg"
+    "year": 2024,
+    "meta": "Chris Sanders, Animation",
+    "category": "movie",
+    "poster": "posters/m050.jpg",
+    "imdb": "tt29623480"
+  },
+  {
+    "id": "m051",
+    "title": "Flow",
+    "rating": 8.2,
+    "year": 2024,
+    "meta": "Gints Zilbalodis, Animation",
+    "category": "movie",
+    "poster": "posters/m051.jpg",
+    "imdb": "tt4772188"
+  },
+  {
+    "id": "m078",
+    "title": "Snatch",
+    "rating": 8.2,
+    "year": 2001,
+    "meta": "Comedy/Crime",
+    "category": "movie",
+    "poster": "posters/m078.jpg",
+    "imdb": "tt0208092"
+  },
+  {
+    "id": "m079",
+    "title": "A Beautiful Mind",
+    "rating": 8.2,
+    "year": 2002,
+    "meta": "Biography/Drama",
+    "category": "movie",
+    "poster": "posters/m079.jpg",
+    "imdb": "tt0268978"
+  },
+  {
+    "id": "m080",
+    "title": "Kill Bill: Vol. 1",
+    "rating": 8.2,
+    "year": 2003,
+    "meta": "Action/Crime",
+    "category": "movie",
+    "poster": "posters/m080.jpg",
+    "imdb": "tt0266697"
+  },
+  {
+    "id": "m082",
+    "title": "Batman Begins",
+    "rating": 8.2,
+    "year": 2005,
+    "meta": "Action/Crime",
+    "category": "movie",
+    "poster": "posters/m082.jpg",
+    "imdb": "tt0372784"
   },
   {
     "id": "at015",
     "title": "Assassination Classroom",
-    "rating": 8.2,
+    "rating": 8.1,
     "year": 2015,
     "meta": "Lerche, Action/Comedy",
     "category": "anime-tv",
-    "poster": "posters/at015.jpg"
-  },
-  {
-    "id": "at039",
-    "title": "Oshi no Ko",
-    "rating": 8.2,
-    "year": 2023,
-    "meta": "Doga Kobo, Drama/Thriller",
-    "category": "anime-tv",
-    "poster": "posters/at039.jpg"
-  },
-  {
-    "id": "am013",
-    "title": "Demon Slayer: Mugen Train",
-    "rating": 8.2,
-    "year": 2020,
-    "meta": "Haruo Sotozaki, Action",
-    "category": "anime-movie",
-    "poster": "posters/am013.jpg"
+    "poster": "posters/at015.jpg",
+    "imdb": "tt3837246",
+    "mal": 24833
   },
   {
     "id": "m008",
@@ -528,7 +1063,8 @@
     "year": 2011,
     "meta": "Nicolas Winding Refn, Action/Drama",
     "category": "movie",
-    "poster": "posters/m008.jpg"
+    "poster": "posters/m008.jpg",
+    "imdb": "tt0780504"
   },
   {
     "id": "m009",
@@ -537,7 +1073,8 @@
     "year": 2011,
     "meta": "Gavin O'Connor, Action/Drama",
     "category": "movie",
-    "poster": "posters/m009.jpg"
+    "poster": "posters/m009.jpg",
+    "imdb": "tt1291584"
   },
   {
     "id": "m013",
@@ -546,7 +1083,8 @@
     "year": 2013,
     "meta": "Steve McQueen, Drama/History",
     "category": "movie",
-    "poster": "posters/m013.jpg"
+    "poster": "posters/m013.jpg",
+    "imdb": "tt2024544"
   },
   {
     "id": "m017",
@@ -555,7 +1093,8 @@
     "year": 2014,
     "meta": "Wes Anderson, Comedy/Drama",
     "category": "movie",
-    "poster": "posters/m017.jpg"
+    "poster": "posters/m017.jpg",
+    "imdb": "tt2278388"
   },
   {
     "id": "m018",
@@ -564,7 +1103,8 @@
     "year": 2014,
     "meta": "David Fincher, Thriller/Drama",
     "category": "movie",
-    "poster": "posters/m018.jpg"
+    "poster": "posters/m018.jpg",
+    "imdb": "tt2267998"
   },
   {
     "id": "m019",
@@ -573,7 +1113,8 @@
     "year": 2015,
     "meta": "George Miller, Action",
     "category": "movie",
-    "poster": "posters/m019.jpg"
+    "poster": "posters/m019.jpg",
+    "imdb": "tt1392190"
   },
   {
     "id": "m021",
@@ -582,7 +1123,8 @@
     "year": 2015,
     "meta": "Alejandro Iñárritu, Adventure/Drama",
     "category": "movie",
-    "poster": "posters/m021.jpg"
+    "poster": "posters/m021.jpg",
+    "imdb": "tt1663202"
   },
   {
     "id": "m024",
@@ -591,7 +1133,8 @@
     "year": 2015,
     "meta": "Ridley Scott, Sci-Fi/Adventure",
     "category": "movie",
-    "poster": "posters/m024.jpg"
+    "poster": "posters/m024.jpg",
+    "imdb": "tt3659388"
   },
   {
     "id": "m053",
@@ -600,7 +1143,8 @@
     "year": 2016,
     "meta": "Mel Gibson, War/Drama",
     "category": "movie",
-    "poster": "posters/m053.jpg"
+    "poster": "posters/m053.jpg",
+    "imdb": "tt2119532"
   },
   {
     "id": "m054",
@@ -609,7 +1153,8 @@
     "year": 2016,
     "meta": "Disney, Animation",
     "category": "movie",
-    "poster": "posters/m054.jpg"
+    "poster": "posters/m054.jpg",
+    "imdb": "tt2948356"
   },
   {
     "id": "m056",
@@ -618,7 +1163,8 @@
     "year": 2017,
     "meta": "Christopher Nolan, War/Drama",
     "category": "movie",
-    "poster": "posters/m056.jpg"
+    "poster": "posters/m056.jpg",
+    "imdb": "tt5013056"
   },
   {
     "id": "m057",
@@ -627,42 +1173,111 @@
     "year": 2019,
     "meta": "James Mangold, Action/Drama",
     "category": "movie",
-    "poster": "posters/m057.jpg"
+    "poster": "posters/m057.jpg",
+    "imdb": "tt1950186"
+  },
+  {
+    "id": "m092",
+    "title": "V for Vendetta",
+    "rating": 8.1,
+    "year": 2006,
+    "meta": "Action/Drama",
+    "category": "movie",
+    "poster": "posters/m092.jpg",
+    "imdb": "tt0434409"
+  },
+  {
+    "id": "m091",
+    "title": "Million Dollar Baby",
+    "rating": 8.1,
+    "year": 2005,
+    "meta": "Drama/Sport",
+    "category": "movie",
+    "poster": "posters/m091.jpg",
+    "imdb": "tt0405159"
+  },
+  {
+    "id": "m023",
+    "title": "Room",
+    "rating": 8.1,
+    "year": 2015,
+    "meta": "Lenny Abrahamson, Drama",
+    "category": "movie",
+    "poster": "posters/m023.jpg",
+    "imdb": "tt3170832"
+  },
+  {
+    "id": "m022",
+    "title": "Spotlight",
+    "rating": 8.1,
+    "year": 2015,
+    "meta": "Tom McCarthy, Drama/Biography",
+    "category": "movie",
+    "poster": "posters/m022.jpg",
+    "imdb": "tt1895587"
+  },
+  {
+    "id": "m088",
+    "title": "Catch Me If You Can",
+    "rating": 8.1,
+    "year": 2002,
+    "meta": "Biography/Crime",
+    "category": "movie",
+    "poster": "posters/m088.jpg",
+    "imdb": "tt0264464"
+  },
+  {
+    "id": "t132",
+    "title": "Misfits",
+    "rating": 8.1,
+    "year": 2009,
+    "meta": "Comedy/Drama",
+    "category": "tv",
+    "poster": "posters/t132.jpg",
+    "imdb": "tt1548850"
+  },
+  {
+    "id": "at014",
+    "title": "Death Parade",
+    "rating": 8.1,
+    "year": 2015,
+    "meta": "Madhouse, Drama/Thriller",
+    "category": "anime-tv",
+    "poster": "posters/at014.jpg",
+    "imdb": "tt4279012",
+    "mal": 28223
+  },
+  {
+    "id": "at059",
+    "title": "Naruto",
+    "rating": 8,
+    "year": 2002,
+    "meta": "Action/Adventure",
+    "category": "anime-tv",
+    "poster": "posters/at059.jpg",
+    "imdb": "tt0409591",
+    "mal": 20
+  },
+  {
+    "id": "at064",
+    "title": "Bleach",
+    "rating": 8,
+    "year": 2004,
+    "meta": "Action/Adventure",
+    "category": "anime-tv",
+    "poster": "posters/at064.jpg",
+    "imdb": "tt0434665",
+    "mal": 269
   },
   {
     "id": "at008",
     "title": "Kill la Kill",
-    "rating": 8.1,
+    "rating": 8,
     "year": 2013,
     "meta": "Studio Trigger, Action/Comedy",
     "category": "anime-tv",
-    "poster": "posters/at008.jpg"
-  },
-  {
-    "id": "at045",
-    "title": "Dr. Stone",
-    "rating": 8.1,
-    "year": 2019,
-    "meta": "TMS, Adventure/Sci-Fi",
-    "category": "anime-tv",
-    "poster": "posters/at045.jpg"
-  },
-  {
-    "id": "am015",
-    "title": "Chainsaw Man: The Movie — Reze Arc",
-    "rating": 8.1,
-    "year": 2025,
-    "meta": "MAPPA, Action/Horror",
-    "category": "anime-movie",
-    "poster": "posters/am015.jpg"
-  },
-  {
-    "id": "am001",
-    "title": "The Secret World of Arrietty",
-    "rating": 8.1,
-    "year": 2010,
-    "meta": "Studio Ghibli, Fantasy",
-    "category": "anime-movie",
-    "poster": "posters/am001.jpg"
+    "poster": "posters/at008.jpg",
+    "imdb": "tt3114390",
+    "mal": 18679
   }
 ]

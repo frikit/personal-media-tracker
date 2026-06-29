@@ -1,12 +1,33 @@
 [
   {
-    "id": "at009",
-    "title": "Haikyuu!!",
+    "id": "t073",
+    "title": "Firefly",
+    "rating": 8.9,
+    "year": 2002,
+    "meta": "Adventure/Sci-Fi",
+    "category": "tv",
+    "poster": "posters/t073.jpg",
+    "imdb": "tt0303461"
+  },
+  {
+    "id": "an024",
+    "title": "Justice League Unlimited",
     "rating": 8.7,
-    "year": 2014,
-    "meta": "Production I.G, Sports/Comedy",
-    "category": "anime-tv",
-    "poster": "posters/at009.jpg"
+    "year": 2004,
+    "meta": "Action/Adventure",
+    "category": "animated-tv",
+    "poster": "posters/an024.jpg",
+    "imdb": "tt6025022"
+  },
+  {
+    "id": "an025",
+    "title": "Young Justice",
+    "rating": 8.6,
+    "year": 2010,
+    "meta": "Action/Adventure",
+    "category": "animated-tv",
+    "poster": "posters/an025.jpg",
+    "imdb": "tt1641384"
   },
   {
     "id": "m029",
@@ -15,7 +36,77 @@
     "year": 2023,
     "meta": "Vidhu Vinod Chopra, Drama",
     "category": "movie",
-    "poster": "posters/m029.jpg"
+    "poster": "posters/m029.jpg",
+    "imdb": "tt23849204"
+  },
+  {
+    "id": "an028",
+    "title": "Justice League",
+    "rating": 8.5,
+    "year": 2001,
+    "meta": "Action/Adventure",
+    "category": "animated-tv",
+    "poster": "posters/an028.jpg",
+    "imdb": "tt0275137"
+  },
+  {
+    "id": "an029",
+    "title": "Star Wars: The Clone Wars",
+    "rating": 8.5,
+    "year": 2008,
+    "meta": "Action/Adventure",
+    "category": "animated-tv",
+    "poster": "posters/an029.jpg",
+    "imdb": "tt0458290"
+  },
+  {
+    "id": "at009",
+    "title": "Haikyuu!!",
+    "rating": 8.4,
+    "year": 2014,
+    "meta": "Production I.G, Sports/Comedy",
+    "category": "anime-tv",
+    "poster": "posters/at009.jpg",
+    "imdb": "tt3398540",
+    "mal": 20583
+  },
+  {
+    "id": "an015",
+    "title": "Tales of the Jedi",
+    "rating": 8.4,
+    "year": 2022,
+    "meta": "Disney+, Sci-Fi",
+    "category": "animated-tv",
+    "poster": "posters/an015.jpg"
+  },
+  {
+    "id": "an033",
+    "title": "Tales of Arcadia",
+    "rating": 8.4,
+    "year": 2016,
+    "meta": "Action/Adventure",
+    "category": "animated-tv",
+    "poster": "posters/an033.jpg"
+  },
+  {
+    "id": "an031",
+    "title": "Harley Quinn",
+    "rating": 8.4,
+    "year": 2019,
+    "meta": "Action/Adventure",
+    "category": "animated-tv",
+    "poster": "posters/an031.jpg",
+    "imdb": "tt7658402"
+  },
+  {
+    "id": "t128",
+    "title": "Lost",
+    "rating": 8.3,
+    "year": 2004,
+    "meta": "Adventure/Drama",
+    "category": "tv",
+    "poster": "posters/t128.jpg",
+    "imdb": "tt0411008"
   },
   {
     "id": "m055",
@@ -24,6 +115,27 @@
     "year": 2016,
     "meta": "Barry Jenkins, Drama",
     "category": "movie",
-    "poster": "posters/m055.jpg"
+    "poster": "posters/m055.jpg",
+    "imdb": "tt4975722"
+  },
+  {
+    "id": "an036",
+    "title": "Phineas and Ferb",
+    "rating": 8.1,
+    "year": 2007,
+    "meta": "Short/Action",
+    "category": "animated-tv",
+    "poster": "posters/an036.jpg",
+    "imdb": "tt0852863"
+  },
+  {
+    "id": "an035",
+    "title": "Star Wars: Rebels",
+    "rating": 8.1,
+    "year": 2014,
+    "meta": "Action/Adventure",
+    "category": "animated-tv",
+    "poster": "posters/an035.jpg",
+    "imdb": "tt2930604"
   }
 ]
